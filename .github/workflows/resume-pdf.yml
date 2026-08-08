@@ -1,0 +1,61 @@
+name: Résumé PDF
+
+# Renders RESUME.md to a PDF and commits it to assets/ so there is always a
+# current, downloadable copy at a stable URL:
+#   https://github.com/CalebEaston/CalebEaston/blob/master/assets/Caleb-Easton-Resume.pdf
+#
+# Runs on any push that touches the résumé, and on demand from the Actions tab.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - RESUME.md
+      - assets/resume.css
+      - .github/workflows/resume-pdf.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resume-pdf
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Render RESUME.md to PDF
+        run: |
+          npx --yes md-to-pdf RESUME.md \
+            --stylesheet assets/resume.css \
+            --launch-options '{"args":["--no-sandbox","--disable-dev-shm-usage"]}' \
+            --pdf-options '{"format":"Letter","margin":{"top":"16mm","bottom":"16mm","left":"14mm","right":"14mm"},"printBackground":true}'
+          mkdir -p assets
+          mv RESUME.pdf "assets/Caleb-Easton-Resume.pdf"
+
+      - name: Upload PDF as a build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: assets/Caleb-Easton-Resume.pdf
+          if-no-files-found: error
+
+      - name: Commit the PDF if it changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "assets/Caleb-Easton-Resume.pdf"
+          if git diff --cached --quiet; then
+            echo "PDF unchanged — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: rebuild résumé PDF"
+          git push

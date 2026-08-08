@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Node (only present if you render the PDF locally)
+node_modules/
+package-lock.json
+
+# Locally rendered PDF — the committed copy in assets/ is built by CI
+/RESUME.pdf
