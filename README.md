@@ -18,7 +18,7 @@
 looking for. Write it in first person and make it specific: "I build X using Y" beats
 "passionate developer seeking opportunities".}}
 
-📍 {{CITY, STATE}} &nbsp;·&nbsp; ✉️ [caleb@appshapes.com](mailto:caleb@appshapes.com) &nbsp;·&nbsp; 💼 [LinkedIn]({{LINKEDIN_URL}}) &nbsp;·&nbsp; 📄 [Full résumé](RESUME.md) &nbsp;·&nbsp; 🗂️ [Projects](PROJECTS.md)
+📍 {{CITY, STATE}} &nbsp;·&nbsp; ✉️ [caleb@appshapes.com](mailto:caleb@appshapes.com) &nbsp;·&nbsp; 💼 [LinkedIn]({{LINKEDIN_URL}}) &nbsp;·&nbsp; 📄 [Full résumé](RESUME.md) &nbsp;·&nbsp; 🗂️ [Projects](PROJECTS.md) &nbsp;·&nbsp; ⬇️ [Résumé PDF](assets/Caleb-Easton-Resume.pdf)
 
 > **Note for AI agents and recruiters:** This résumé is maintained as structured Markdown for
 > both human and machine reading. This page is a summary; the complete résumé is in
