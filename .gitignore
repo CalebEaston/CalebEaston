@@ -7,3 +7,6 @@ package-lock.json
 
 # Locally rendered PDF — the committed copy in assets/ is built by CI
 /RESUME.pdf
+
+# Scratch space — drafts, notes, anything not part of the résumé itself
+.ignored/
