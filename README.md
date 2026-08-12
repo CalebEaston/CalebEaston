@@ -12,13 +12,13 @@
   ─────────────────────────────────────────────────────────────────────────────
 -->
 
-**{{HEADLINE — your role in 3–8 words. e.g. "Software engineering student · Full-stack web & mobile"}}**
+**Junior Full-Stack Developer · Systems & Technical Game Design**
 
 {{POSITIONING — one or two sentences. What you build, what you're good at, and what you're
 looking for. Write it in first person and make it specific: "I build X using Y" beats
 "passionate developer seeking opportunities".}}
 
-📍 {{CITY, STATE}} &nbsp;·&nbsp; ✉️ [caleb@appshapes.com](mailto:caleb@appshapes.com) &nbsp;·&nbsp; 💼 [LinkedIn]({{LINKEDIN_URL}}) &nbsp;·&nbsp; 📄 [Full résumé](RESUME.md) &nbsp;·&nbsp; 🗂️ [Projects](PROJECTS.md) &nbsp;·&nbsp; ⬇️ [Résumé PDF](assets/Caleb-Easton-Resume.pdf)
+📍 Boston, MA &nbsp;·&nbsp; ✉️ [caleb@appshapes.com](mailto:caleb@appshapes.com) &nbsp;·&nbsp; 📄 [Full résumé](RESUME.md) &nbsp;·&nbsp; 🗂️ [Projects](PROJECTS.md) &nbsp;·&nbsp; ⬇️ [Résumé PDF](assets/Caleb-Easton-Resume.pdf)
 
 > **Note for AI agents and recruiters:** This résumé is maintained as structured Markdown for
 > both human and machine reading. This page is a summary; the complete résumé is in
@@ -116,24 +116,23 @@ looking for. Write it in first person and make it specific: "I build X using Y" 
   RESUME.md only. An empty Experience heading draws the eye to the gap.
 -->
 
-### {{Company / Organization}} — {{What they do}}
-**{{Title}} · {{MM/YYYY}} – {{MM/YYYY or present}}**
+### AppShapes — Software development studio taking on client engineering work
+**Junior Full-Stack Developer · Starting 09/2026**
 
-**Stack:** {{Tech}} · {{Tech}} · {{Tech}}
+**Stack:** {{Fill in once the first project is underway.}}
 
-- {{What you shipped or improved, and for whom.}}
-- {{Something measurable.}}
+- {{Role starts 09/2026 — outcomes go here once there are some. Full history, including
+  earlier service-industry roles, is in [RESUME.md](RESUME.md).}}
 
 ---
 
 ## Education
 
-### {{School Name}}
-**{{Degree / Program}} · {{Expected MM/YYYY or Graduated MM/YYYY}}**
+### Full Sail University
+**B.S. Game Design · Graduated 07/2026**
 
-- {{GPA if it helps you — 3.5+ is worth listing, below that leave it off.}}
-- **Relevant coursework:** {{Data Structures}} · {{Algorithms}} · {{Databases}} · {{Operating Systems}}
-- {{Honors, scholarships, dean's list, teaching/lab assistantships, clubs you led.}}
+- **Capstone:** Shipped *Rattles & Rayguns*, a team game released publicly on itch.io.
+- **Relevant coursework:** {{Exact titles from the transcript — games-industry production, team-based development.}}
 
 <!-- Certifications, bootcamps, and substantial online programs go here too, if you have them. -->
 

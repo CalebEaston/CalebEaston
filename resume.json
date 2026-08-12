@@ -3,121 +3,119 @@
   "meta": {
     "canonical": "https://github.com/CalebEaston/CalebEaston/blob/master/resume.json",
     "version": "1.0.0",
-    "lastModified": "2026-08-08",
-    "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place."
+    "lastModified": "2026-08-12",
+    "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place. Service-role dates are year-only because exact months are not known; replace with YYYY-MM when available."
   },
   "basics": {
     "name": "Caleb Easton",
-    "label": "{{HEADLINE, e.g. Software Engineering Student}}",
+    "label": "Junior Full-Stack Developer · Systems & Technical Game Design",
     "image": "",
     "email": "caleb@appshapes.com",
     "phone": "",
     "url": "https://github.com/CalebEaston",
-    "summary": "{{SUMMARY — same 3-4 sentences as the Summary section of RESUME.md}}",
+    "summary": "{{SUMMARY — same 3-4 sentences as the Summary section of RESUME.md, written last}}",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "{{CITY}}",
+      "city": "Boston",
       "countryCode": "US",
-      "region": "{{STATE}}"
+      "region": "Massachusetts"
     },
     "profiles": [
       {
         "network": "GitHub",
         "username": "CalebEaston",
         "url": "https://github.com/CalebEaston"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "{{LINKEDIN_HANDLE}}",
-        "url": "{{LINKEDIN_URL}}"
       }
     ]
   },
   "work": [
     {
-      "name": "{{Company / Organization}}",
-      "position": "{{Title}}",
-      "url": "{{COMPANY_URL}}",
-      "location": "{{City, State}}",
-      "startDate": "{{YYYY-MM}}",
-      "endDate": "{{YYYY-MM, or omit this field entirely if current}}",
-      "summary": "{{One sentence on what the organization does and what you owned.}}",
-      "highlights": [
-        "{{Accomplishment bullet, past tense, with an outcome.}}",
-        "{{Accomplishment bullet.}}"
-      ]
-    }
-  ],
-  "volunteer": [
+      "name": "AppShapes",
+      "position": "Junior Full-Stack Developer",
+      "url": "",
+      "location": "Boston, MA",
+      "startDate": "2026-09",
+      "summary": "Software development studio taking on client engineering work. Role begins 09/2026; incoming scope is full-stack contract work on the ThinkTech engagement, paired with the lead developer across front end and back end.",
+      "highlights": []
+    },
     {
-      "organization": "{{Organization}}",
-      "position": "{{Role}}",
-      "url": "{{URL}}",
-      "startDate": "{{YYYY-MM}}",
-      "endDate": "{{YYYY-MM}}",
-      "summary": "{{What you did.}}",
+      "name": "New City Micro Creamery",
+      "position": "Shift Manager",
+      "url": "",
+      "location": "{{City, State}}",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Managed shifts as the on-duty lead over roughly four months.",
+      "highlights": []
+    },
+    {
+      "name": "Whole Foods Market",
+      "position": "Floater",
+      "url": "",
+      "location": "{{City, State}}",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "Covered whichever department needed staffing that day.",
+      "highlights": []
+    },
+    {
+      "name": "Fun @ Games",
+      "position": "Assistant Manager",
+      "url": "",
+      "location": "{{City, State}}",
+      "startDate": "2018",
+      "endDate": "2020",
+      "summary": "Supervised floor staff and daily operations.",
       "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "{{School Name}}",
-      "url": "{{SCHOOL_URL}}",
-      "area": "{{Computer Science}}",
-      "studyType": "{{Bachelor of Science}}",
-      "startDate": "{{YYYY-MM}}",
-      "endDate": "{{YYYY-MM — expected graduation is fine}}",
-      "score": "{{GPA, omit if below 3.5}}",
+      "institution": "Full Sail University",
+      "url": "https://www.fullsail.edu/",
+      "area": "Game Design",
+      "studyType": "Bachelor of Science",
+      "endDate": "2026-07",
       "courses": [
-        "{{Data Structures & Algorithms}}",
-        "{{Databases}}",
-        "{{Operating Systems}}"
+        "{{Exact course titles from transcript — known themes: games-industry production, team-based development}}"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "{{Award}}",
-      "date": "{{YYYY-MM}}",
-      "awarder": "{{Awarding body}}",
-      "summary": "{{What it was for.}}"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "{{Credential}}",
-      "date": "{{YYYY-MM}}",
-      "issuer": "{{Issuer}}",
-      "url": "{{CREDENTIAL_URL}}"
-    }
-  ],
+  "awards": [],
+  "certificates": [],
   "publications": [],
   "skills": [
     {
       "name": "Languages",
       "level": "",
-      "keywords": ["{{TypeScript}}", "{{Python}}", "{{Kotlin}}", "{{SQL}}"]
+      "keywords": ["{{NOT YET ANSWERED}}"]
     },
     {
       "name": "Frameworks & Libraries",
       "level": "",
-      "keywords": ["{{React}}", "{{Vue / Nuxt}}", "{{Node.js}}", "{{Tailwind CSS}}"]
+      "keywords": ["{{NOT YET ANSWERED}}"]
     },
     {
       "name": "Data & Storage",
       "level": "",
-      "keywords": ["{{PostgreSQL}}", "{{SQLite}}", "{{Redis}}"]
+      "keywords": ["{{NOT YET ANSWERED}}"]
     },
     {
       "name": "Testing",
       "level": "",
-      "keywords": ["{{Vitest}}", "{{pytest}}", "{{Playwright}}"]
+      "keywords": ["{{NOT YET ANSWERED}}"]
     },
     {
       "name": "Infrastructure & Tooling",
       "level": "",
-      "keywords": ["{{Git}}", "{{GitHub Actions}}", "{{Docker}}", "{{Linux}}"]
+      "keywords": ["{{NOT YET ANSWERED}}"]
+    },
+    {
+      "name": "Game Development",
+      "level": "",
+      "keywords": ["{{Engines and tools used on Rattles & Rayguns and coursework}}"]
     }
   ],
   "languages": [
@@ -135,20 +133,19 @@
   "references": [],
   "projects": [
     {
-      "name": "{{Project Name}}",
-      "description": "{{One-line description of what it does.}}",
+      "name": "Rattles & Rayguns",
+      "description": "{{One line: what the game is and who plays it.}}",
       "highlights": [
-        "{{What you built and the decision behind it.}}",
-        "{{A hard part, and how you solved it.}}",
-        "{{A result — users, performance, scope.}}"
+        "{{What you personally owned — systems, tools, gameplay code, level design, production.}}",
+        "{{The hardest problem you solved, and how.}}",
+        "{{Reception or result: downloads, ratings, playtest findings, grade, showcase.}}"
       ],
-      "keywords": ["{{Tech}}", "{{Tech}}", "{{Tech}}"],
-      "startDate": "{{YYYY-MM}}",
-      "endDate": "{{YYYY-MM}}",
-      "url": "{{REPO_URL}}",
-      "roles": ["{{Developer}}"],
-      "entity": "{{Personal / Coursework / Client}}",
-      "type": "application"
+      "keywords": ["{{Engine}}", "{{Language}}", "{{Tools}}"],
+      "endDate": "2026-07",
+      "url": "{{ITCH_IO_URL}}",
+      "roles": ["{{Your role on the team}}"],
+      "entity": "Full Sail University — final/capstone project",
+      "type": "game"
     }
   ]
 }

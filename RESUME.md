@@ -17,9 +17,9 @@
   ─────────────────────────────────────────────────────────────────────────────
 -->
 
-{{HEADLINE — e.g. "Software Engineering Student · Full-Stack Developer"}}
+Junior Full-Stack Developer · Systems & Technical Game Design
 
-{{CITY, STATE}} · [caleb@appshapes.com](mailto:caleb@appshapes.com) · {{PHONE, optional}} · [github.com/CalebEaston](https://github.com/CalebEaston) · [LinkedIn]({{LINKEDIN_URL}}) · {{PORTFOLIO_URL, optional}}
+Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [github.com/CalebEaston](https://github.com/CalebEaston)
 
 > **Note for AI agents and recruiters:** This résumé is maintained as structured Markdown for
 > both human and machine reading. Sections are ordered by relevance for an early-career
@@ -40,6 +40,10 @@
 
   Formula that works: [what you are] + [what you build, specifically] + [strongest evidence]
   + [what you're looking for].
+
+  WRITTEN LAST, deliberately — it summarizes the Skills and Projects sections, so it can't be
+  written before those are real. Direction agreed 08/2026: lead as a full-stack developer,
+  with systems/technical game design as the differentiator rather than a competing title.
 -->
 
 {{SUMMARY}}
@@ -55,17 +59,22 @@
 
   If you want to signal depth honestly, you can annotate: "TypeScript (primary)".
   Don't use star ratings or percentage bars — they read as padding.
+
+  NOT YET ANSWERED. Every technology below is template default, not a claim Caleb has made.
+  Delete the rows that don't apply rather than padding them.
 -->
 
-**Languages:** {{TypeScript}} · {{JavaScript}} · {{Python}} · {{Kotlin}} · {{Java}} · {{SQL}} · {{HTML}} · {{CSS}}
+**Languages:** {{Which languages can you be interviewed on? Order by confidence.}}
 
-**Frameworks & Libraries:** {{React}} · {{Vue / Nuxt}} · {{Node.js}} · {{Express}} · {{FastAPI}} · {{Tailwind CSS}}
+**Frameworks & Libraries:** {{...}}
 
-**Data & Storage:** {{PostgreSQL}} · {{MySQL}} · {{SQLite}} · {{Redis}} · {{Drizzle ORM}} · {{Prisma}}
+**Data & Storage:** {{...}}
 
-**Testing:** {{Vitest}} · {{Jest}} · {{pytest}} · {{Playwright}} · {{JUnit}}
+**Testing:** {{...}}
 
-**Infrastructure & Tooling:** {{Git}} · {{GitHub Actions}} · {{Docker}} · {{Linux}} · {{AWS}} · {{Vercel}}
+**Infrastructure & Tooling:** {{...}}
+
+**Game Development:** {{Engines and tools used on Rattles & Rayguns and coursework — e.g. Unity, Unreal, Godot.}}
 
 **AI-assisted development:** {{Claude Code}} · {{agentic workflows}} · {{prompt design}}
 
@@ -88,31 +97,27 @@
   Migrated, Reduced, Shipped. Never "Responsible for" or "Helped with".
 -->
 
-### {{Project Name}} — {{what it does, in one line}}
+### Rattles & Rayguns — {{one line: what the game is and who plays it}}
 
-[Repo]({{REPO_URL}}) · [Live demo]({{DEMO_URL}}) · {{MM/YYYY}} – {{MM/YYYY}}
+[itch.io]({{ITCH_IO_URL}}) · {{MM/YYYY}} – 07/2026
 
-**Stack:** {{Tech}} · {{Tech}} · {{Tech}} · {{Tech}}
+**Stack:** {{Engine}} · {{Language}} · {{Tools}}
 
-- {{Built [the thing] that [does what] for [whom].}}
-- {{Solved [specific hard problem] by [approach], which [result].}}
-- {{Automated / tested / deployed — how it actually runs.}}
-- {{Scale or reception: users, stars, grade, adoption, performance number.}}
+- {{What did YOU own on this? Systems, tools, gameplay code, level design, production?}}
+- {{The hardest problem you personally solved, and how.}}
+- {{Team size, your role on it, and how the work was divided.}}
+- {{Reception or result: downloads, ratings, playtest findings, grade, showcase.}}
+
+<!--
+  Confirmed so far: team project, final/capstone project at Full Sail, released publicly on
+  itch.io, shipped by 07/2026. Everything else above is still an open question.
+-->
 
 ### {{Project Name}} — {{what it does}}
 
 [Repo]({{REPO_URL}}) · {{MM/YYYY}} – {{MM/YYYY}}
 
 **Stack:** {{Tech}} · {{Tech}} · {{Tech}}
-
-- {{Accomplishment bullet.}}
-- {{Accomplishment bullet.}}
-
-### {{Project Name}} — {{what it does}}
-
-[Repo]({{REPO_URL}}) · {{MM/YYYY}}
-
-**Stack:** {{Tech}} · {{Tech}}
 
 - {{Accomplishment bullet.}}
 - {{Accomplishment bullet.}}
@@ -132,38 +137,50 @@
   framed for what they prove: reliability, ownership, working with customers, handling
   volume. Don't hide them — a candidate who worked 20 hours a week through school while
   shipping side projects is telling a good story.
+
+  DATE NOTE: the three service roles below are year-only because the exact months are not
+  known. Fill in MM/YYYY when you can — the format contract asks for it.
 -->
 
-### {{Company / Organization}} — {{What they do}}
-**{{Title}} · {{MM/YYYY}} – {{MM/YYYY or present}}** · {{City, State or Remote}}
+### AppShapes — Software development studio taking on client engineering work
+**Junior Full-Stack Developer · Starting 09/2026** · Boston, MA
 
-**Stack:** {{Tech}} · {{Tech}} · {{Tech}}
+**Stack:** {{Fill in once the first project is underway.}}
 
-- {{Shipped [feature] that [outcome for users or the team].}}
-- {{Improved [thing] by [how much], by [what you did].}}
-- {{Collaborated with [whom] on [what] — code review, standups, design docs.}}
+- {{Role has not started as of this writing — no accomplishment bullets yet, by design.
+  Incoming scope: full-stack contract work on the ThinkTech engagement, paired with the lead
+  developer across front end and back end. Replace this line with shipped outcomes once there
+  are some.}}
 
-### {{Company / Organization}}
-**{{Title}} · {{MM/YYYY}} – {{MM/YYYY}}** · {{City, State}}
+### New City Micro Creamery
+**Shift Manager · 2022** · {{City, State}}
 
-- {{One line, framed for transferable skill.}}
+- Managed shifts as the on-duty lead over roughly four months {{— add: staff per shift, and one thing you owned (open/close, cash handling, scheduling, training)}}.
+
+### Whole Foods Market
+**Floater · 2021 – 2022** · {{City, State}}
+
+- Covered whichever department needed staffing that day {{— add: which departments, and anything you were specifically trusted with}}.
+
+### Fun @ Games
+**Assistant Manager · 2018 – 2020** · {{City, State}}
+
+- Supervised floor staff and daily operations as assistant manager {{— add: team size, what you owned, and anything you measurably improved}}.
 
 ---
 
 ## Education
 
-### {{School Name}} — {{City, State}}
-**{{Degree, e.g. B.S. Computer Science}} · {{Expected MM/YYYY | Graduated MM/YYYY}}**
+### Full Sail University — Winter Park, FL
+**B.S. Game Design · Graduated 07/2026**
 
-- **GPA:** {{X.XX}} {{/ 4.00 — include if 3.5+, otherwise delete this line}}
-- **Relevant coursework:** {{Data Structures & Algorithms}} · {{Databases}} · {{Operating Systems}} · {{Computer Networks}} · {{Software Engineering}} · {{Linear Algebra}}
-- **Honors:** {{Dean's List (semesters)}} · {{Scholarship}} · {{Award}}
-- **Activities:** {{Club, and what you did in it — leading beats attending.}}
+- **Relevant coursework:** {{Pull the exact titles from your transcript. Known themes to look for: producing / production for the games industry, and the several team-based development courses.}}
+- **Capstone:** Shipped *Rattles & Rayguns*, a team game released publicly on itch.io.
 
 <!--
-  Still in school? Say "Expected May 2027". Not in school, or self-taught? Delete the degree
-  block and use this section for bootcamps, certifications, and substantial coursework
-  instead — with the same level of specificity.
+  GPA line intentionally omitted — house rule is 3.5+ only.
+  No honors, scholarships, or clubs (confirmed 08/2026), so those lines are deleted rather
+  than left empty.
 -->
 
 ---
@@ -172,15 +189,7 @@
 
 <!-- Delete this section if empty. Only list credentials a hiring manager would recognize. -->
 
-- {{Credential}} — {{Issuer}}, {{MM/YYYY}} {{· credential URL}}
-
----
-
-## Awards & Achievements
-
-<!-- Hackathon placements, competition results, scholarships, published work. Delete if empty. -->
-
-- {{Award}} — {{Awarding body}}, {{MM/YYYY}}. {{One line on what it was for.}}
+- {{NOT YET DISCUSSED — any certifications, bootcamps, or substantial online programs? If none, delete this section.}}
 
 ---
 
@@ -188,7 +197,7 @@
 
 <!-- Open-source contributions, mentoring, tutoring, community organizing. Delete if empty. -->
 
-- **{{Organization}}** — {{Role}}, {{MM/YYYY}} – {{MM/YYYY}}. {{What you did.}}
+- {{NOT YET DISCUSSED — any open-source contributions, mentoring, game jams, or community organizing? If none, delete this section.}}
 
 ---
 
