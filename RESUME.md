@@ -17,7 +17,7 @@
   ─────────────────────────────────────────────────────────────────────────────
 -->
 
-Junior Full-Stack Developer · Systems & Technical Game Design
+Systems & Technical Game Design · Moving into Full-Stack Development
 
 Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [github.com/CalebEaston](https://github.com/CalebEaston)
 
@@ -60,27 +60,26 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
   If you want to signal depth honestly, you can annotate: "TypeScript (primary)".
   Don't use star ratings or percentage bars — they read as padding.
 
-  NOT YET ANSWERED. Every technology below is template default, not a claim Caleb has made.
-  Delete the rows that don't apply rather than padding them.
+  ORDERED DELIBERATELY (08/2026): Game Development leads because that is where the depth and
+  the public evidence are, matching the design-first headline. Languages is honestly short —
+  Blueprints is the only one Caleb said he would defend in an interview. DO NOT PAD IT.
+
+  Three rows were DELETED rather than left empty — Frameworks & Libraries, Data & Storage,
+  and Testing. Caleb confirmed no web, no database, and no testing exposure (08/2026).
+  Re-add a row only when there is something real and defensible to put in it.
 -->
 
-**Languages:** {{Which languages can you be interviewed on? Order by confidence.}}
+**Game Development:** Unreal Engine 5.6 · Blueprints · Unity · Machinations
 
-**Frameworks & Libraries:** {{...}}
+**Languages:** Blueprints (Unreal visual scripting)
 
-**Data & Storage:** {{...}}
+**AI-assisted development:** Claude Code — specifying, reviewing, and integrating AI-written implementations
 
-**Testing:** {{...}}
+**Tools:** Perforce · Git · ClickUp · Google Sheets · Excel
 
-**Infrastructure & Tooling:** {{...}}
+**Practices:** Team-based development · Cross-discipline collaboration
 
-**Game Development:** {{Engines and tools used on Rattles & Rayguns and coursework — e.g. Unity, Unreal, Godot.}}
-
-**AI-assisted development:** {{Claude Code}} · {{agentic workflows}} · {{prompt design}}
-
-**Practices:** {{Version control hygiene}} · {{Code review}} · {{Automated testing}} · {{CI/CD}} · {{Agile / Scrum}}
-
-**Currently learning:** {{Thing}} · {{Thing}}
+**Currently learning:** C# · TypeScript · Nuxt 4 / Vue 3 · PHP
 
 ---
 
@@ -97,30 +96,78 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
   Migrated, Reduced, Shipped. Never "Responsible for" or "Helped with".
 -->
 
-### Rattles & Rayguns — {{one line: what the game is and who plays it}}
+### Rattles & Rayguns — Arena shooter: a rattlesnake gunslinger holds a frontier town against alien waves
 
-[itch.io]({{ITCH_IO_URL}}) · {{MM/YYYY}} – 07/2026
+[itch.io](https://tjtriplett.itch.io/rattles-and-rayguns) · 07/2026
 
-**Stack:** {{Engine}} · {{Language}} · {{Tools}}
+**Stack:** Unreal Engine 5.6 · Blueprints
 
-- {{What did YOU own on this? Systems, tools, gameplay code, level design, production?}}
-- {{The hardest problem you personally solved, and how.}}
-- {{Team size, your role on it, and how the work was divided.}}
-- {{Reception or result: downloads, ratings, playtest findings, grade, showcase.}}
+- Built a modular weapon system in Unreal Engine 5.6 Blueprints, letting a designer create a new gun by setting variables on a child of a base weapon Blueprint instead of writing per-weapon logic.
+- Generalized weapon behavior into that base Blueprint — how a weapon spawns in the player's hands, how many projectiles fire per shot — so new weapons plugged in without modifying the shared system.
+- Owned the weapons system as one of 6 designers working alongside 4 artists, on a Full Sail capstone built and publicly released within a single month.
 
 <!--
-  Confirmed so far: team project, final/capstone project at Full Sail, released publicly on
-  itch.io, shipped by 07/2026. Everything else above is still an open question.
+  Caleb is credited as "Caleb Easton (Weapons)" on the itch.io page — the claim above is publicly
+  verifiable, which is why the bullets name the system directly. The whole project ran inside
+  07/2026 (Full Sail's month-long course format), hence the single date rather than a range.
+  The itch.io page shows no ratings or download counts, so there is deliberately NO reception
+  bullet. Do not add one.
 -->
 
-### {{Project Name}} — {{what it does}}
+### A2B — Solo first-person parkour prototype in Unreal
 
-[Repo]({{REPO_URL}}) · {{MM/YYYY}} – {{MM/YYYY}}
+[Build]({{ITCH_IO_URL}}) · 09/2025 – 12/2025
 
-**Stack:** {{Tech}} · {{Tech}} · {{Tech}}
+**Stack:** Unreal Engine · Blueprints
 
-- {{Accomplishment bullet.}}
-- {{Accomplishment bullet.}}
+- Built the movement and feel systems in Blueprints as a solo project, including a mantle, head-bob, and sound design.
+- Implemented a settings menu persisting FOV, mouse sensitivity, and head-bob across sessions, on reusable button and slider widgets shared by the pause, settings, and win screens.
+- Designed three test levels and a level loader to exercise the movement systems in isolation.
+- Delegated the wall-run to Claude Code after several partial rewrites failed to make it feel intuitive, specifying the target behavior and reviewing the result into the build.
+
+<!--
+  HONESTY BOUNDARY — the wall-run and the lasso/grapple mechanic were written by Claude Code,
+  NOT by Caleb. Everything else in this project is his: mantle, menus, head-bob, sound, the
+  settings save, the levels, the level loader. Never write a bullet claiming he implemented the
+  wall-run or the lasso. The fourth bullet is deliberately framed as delegation-and-judgment,
+  which is both true and the strongest interview story he has.
+
+  Repo is PRIVATE and stays private (853 MB, mostly stock Epic StarterContent, and Blueprints
+  do not render on GitHub — a reviewer would see nothing). The link must be an itch.io page
+  with a gameplay video; the repo is not a substitute. That is the remaining {{ITCH_IO_URL}}.
+-->
+
+### Weekly Quest Log — Gamified task system that resets itself every week
+
+[Repo](https://github.com/CalebEaston/weekly-quest-log) · [Sheet](https://docs.google.com/spreadsheets/d/1Gcd-2OqzQJKP50ZNhw9G7SV7KWqO0Hj6VIi7UAVs6no/edit) · 10/2025
+
+**Stack:** Google Apps Script · JavaScript · Google Sheets
+
+- Designed a personal task system as a game progression loop, tiering work into main quests, side quests, and events with XP scaled to effort from 25 to 100 per task.
+- Automated the weekly reset in Google Apps Script, clearing quest completion state and the XP derived from it on a time-driven trigger.
+- Hardened the daily day-off sync against silent failure, checking for a range protection before writing and rethrowing so errors surface in the Apps Script execution log.
+
+<!--
+  Levels, an XP log, and unlockable rewards were DESIGNED BUT NEVER BUILT — only a skeleton exists
+  in the day list. Do NOT write a bullet claiming a leveling or reward system; an interviewer can
+  open the sheet. That unbuilt design belongs in the PROJECTS.md retrospective as future work.
+  ADHD was the motivation and is deliberately absent — Caleb's call, 08/2026. Do not reintroduce it.
+-->
+
+### Camo Grind Tracker — Completion feedback system for the weapon-camo grind in Black Ops 6
+
+[Sheet](https://docs.google.com/spreadsheets/d/1hG8Ou30pDZfOGhahvFu4V3KRl8sz8PVNwFCpSIMzpxA/edit) · 11/2024
+
+**Stack:** Google Sheets · Conditional formatting
+
+- Modeled the full completion matrix across nine weapon categories and four camo tiers, with per-tier rollups driving the section states.
+- Designed per-item feedback so marking a camo complete flips its row from red to green and rewrites its status text, making progress readable at a glance.
+- Built section-level completion signalling that recolors an entire tier once its last weapon is finished, so a closed-out set is unmistakable.
+
+<!--
+  No Apps Script in this one — formulas and conditional formatting only (confirmed 08/2026).
+  Do not add JavaScript to its Stack line.
+-->
 
 **Full write-ups:** [PROJECTS.md](PROJECTS.md)
 
@@ -145,12 +192,22 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
 ### AppShapes — Software development studio taking on client engineering work
 **Junior Full-Stack Developer · Starting 09/2026** · Boston, MA
 
-**Stack:** {{Fill in once the first project is underway.}}
+**Stack:** TypeScript · Nuxt 4 / Vue 3 · PHP · MySQL · AWS
 
-- {{Role has not started as of this writing — no accomplishment bullets yet, by design.
-  Incoming scope: full-stack contract work on the ThinkTech engagement, paired with the lead
-  developer across front end and back end. Replace this line with shipped outcomes once there
-  are some.}}
+<!--
+  Stack narrowed deliberately (decided 08/2026). The ThinkTech engagement spans four repos —
+  a PHP 7.4 / Slim 2 legacy monolith, a .NET 10 API, a Nuxt 4 migration target, and a Kotlin
+  Multiplatform app. The line above claims only the web tier Caleb is most likely to work in
+  first. Do NOT widen it to .NET or Kotlin until he has actually shipped against them.
+
+  The bullet below is a SCOPE line, not an accomplishment — the role has not started, so there
+  is nothing to claim yet. It deliberately breaks the past-tense-action-verb rule rather than
+  dress an unstarted role up as shipped work. Replace it with real outcome bullets once there
+  are some; that is when the bullet rules apply.
+-->
+
+- Incoming scope: full-stack contract work on ThinkTech, a multi-tenant K-12 learning platform,
+  paired with the lead developer across front end and back end.
 
 ### New City Micro Creamery
 **Shift Manager · 2022** · {{City, State}}

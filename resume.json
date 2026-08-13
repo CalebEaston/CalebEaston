@@ -3,12 +3,12 @@
   "meta": {
     "canonical": "https://github.com/CalebEaston/CalebEaston/blob/master/resume.json",
     "version": "1.0.0",
-    "lastModified": "2026-08-12",
+    "lastModified": "2026-08-13",
     "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place. Service-role dates are year-only because exact months are not known; replace with YYYY-MM when available."
   },
   "basics": {
     "name": "Caleb Easton",
-    "label": "Junior Full-Stack Developer · Systems & Technical Game Design",
+    "label": "Systems & Technical Game Design · Moving into Full-Stack Development",
     "image": "",
     "email": "caleb@appshapes.com",
     "phone": "",
@@ -36,7 +36,7 @@
       "url": "",
       "location": "Boston, MA",
       "startDate": "2026-09",
-      "summary": "Software development studio taking on client engineering work. Role begins 09/2026; incoming scope is full-stack contract work on the ThinkTech engagement, paired with the lead developer across front end and back end.",
+      "summary": "Software development studio taking on client engineering work. Role begins 09/2026; incoming scope is full-stack contract work on ThinkTech, a multi-tenant K-12 learning platform, paired with the lead developer across front end and back end. Stack: TypeScript · Nuxt 4 / Vue 3 · PHP · MySQL · AWS.",
       "highlights": []
     },
     {
@@ -88,34 +88,37 @@
   "publications": [],
   "skills": [
     {
-      "name": "Languages",
-      "level": "",
-      "keywords": ["{{NOT YET ANSWERED}}"]
-    },
-    {
-      "name": "Frameworks & Libraries",
-      "level": "",
-      "keywords": ["{{NOT YET ANSWERED}}"]
-    },
-    {
-      "name": "Data & Storage",
-      "level": "",
-      "keywords": ["{{NOT YET ANSWERED}}"]
-    },
-    {
-      "name": "Testing",
-      "level": "",
-      "keywords": ["{{NOT YET ANSWERED}}"]
-    },
-    {
-      "name": "Infrastructure & Tooling",
-      "level": "",
-      "keywords": ["{{NOT YET ANSWERED}}"]
-    },
-    {
       "name": "Game Development",
       "level": "",
-      "keywords": ["{{Engines and tools used on Rattles & Rayguns and coursework}}"]
+      "keywords": ["Unreal Engine 5.6", "Blueprints", "Unity", "Machinations"]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": ["Blueprints (Unreal visual scripting)"]
+    },
+    {
+      "name": "AI-assisted development",
+      "level": "",
+      "keywords": [
+        "Claude Code",
+        "Specifying, reviewing, and integrating AI-written implementations"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": ["Perforce", "Git", "ClickUp", "Google Sheets", "Excel"]
+    },
+    {
+      "name": "Practices",
+      "level": "",
+      "keywords": ["Team-based development", "Cross-discipline collaboration"]
+    },
+    {
+      "name": "Currently learning",
+      "level": "Learning",
+      "keywords": ["C#", "TypeScript", "Nuxt 4 / Vue 3", "PHP"]
     }
   ],
   "languages": [
@@ -134,18 +137,63 @@
   "projects": [
     {
       "name": "Rattles & Rayguns",
-      "description": "{{One line: what the game is and who plays it.}}",
+      "description": "Arena shooter in which a rattlesnake gunslinger defends a frontier town against waves of alien invaders.",
       "highlights": [
-        "{{What you personally owned — systems, tools, gameplay code, level design, production.}}",
-        "{{The hardest problem you solved, and how.}}",
-        "{{Reception or result: downloads, ratings, playtest findings, grade, showcase.}}"
+        "Built a modular weapon system in Unreal Engine 5.6 Blueprints, letting a designer create a new gun by setting variables on a child of a base weapon Blueprint instead of writing per-weapon logic.",
+        "Generalized weapon behavior into that base Blueprint — how a weapon spawns in the player's hands, how many projectiles fire per shot — so new weapons plugged in without modifying the shared system.",
+        "Owned the weapons system as one of 6 designers working alongside 4 artists, on a Full Sail capstone built and publicly released within a single month."
       ],
-      "keywords": ["{{Engine}}", "{{Language}}", "{{Tools}}"],
+      "keywords": ["Unreal Engine 5.6", "Blueprints"],
+      "startDate": "2026-07",
       "endDate": "2026-07",
-      "url": "{{ITCH_IO_URL}}",
-      "roles": ["{{Your role on the team}}"],
+      "url": "https://tjtriplett.itch.io/rattles-and-rayguns",
+      "roles": ["Designer — Weapons"],
       "entity": "Full Sail University — final/capstone project",
       "type": "game"
+    },
+    {
+      "name": "A2B",
+      "description": "Solo first-person parkour prototype built in Unreal Engine with Blueprints.",
+      "highlights": [
+        "Built the movement and feel systems in Blueprints as a solo project, including a mantle, head-bob, and sound design.",
+        "Implemented a settings menu persisting FOV, mouse sensitivity, and head-bob across sessions, on reusable button and slider widgets shared by the pause, settings, and win screens.",
+        "Designed three test levels and a level loader to exercise the movement systems in isolation.",
+        "Delegated the wall-run to Claude Code after several partial rewrites failed to make it feel intuitive, specifying the target behavior and reviewing the result into the build."
+      ],
+      "keywords": ["Unreal Engine", "Blueprints"],
+      "startDate": "2025-09",
+      "endDate": "2025-12",
+      "url": "{{ITCH_IO_URL}}",
+      "roles": ["Solo"],
+      "type": "game"
+    },
+    {
+      "name": "Weekly Quest Log",
+      "description": "Gamified personal task system in Google Sheets that resets itself every week via a time-driven Apps Script trigger.",
+      "highlights": [
+        "Designed a personal task system as a game progression loop, tiering work into main quests, side quests, and events with XP scaled to effort from 25 to 100 per task.",
+        "Automated the weekly reset in Google Apps Script, clearing quest completion state and the XP derived from it on a time-driven trigger.",
+        "Hardened the daily day-off sync against silent failure, checking for a range protection before writing and rethrowing so errors surface in the Apps Script execution log."
+      ],
+      "keywords": ["Google Apps Script", "JavaScript", "Google Sheets"],
+      "startDate": "2025-10",
+      "url": "https://github.com/CalebEaston/weekly-quest-log",
+      "roles": ["Solo"],
+      "type": "application"
+    },
+    {
+      "name": "Camo Grind Tracker",
+      "description": "Completion feedback system in Google Sheets for the weapon-camo grind in Call of Duty: Black Ops 6.",
+      "highlights": [
+        "Modeled the full completion matrix across nine weapon categories and four camo tiers, with per-tier rollups driving the section states.",
+        "Designed per-item feedback so marking a camo complete flips its row from red to green and rewrites its status text, making progress readable at a glance.",
+        "Built section-level completion signalling that recolors an entire tier once its last weapon is finished, so a closed-out set is unmistakable."
+      ],
+      "keywords": ["Google Sheets", "Conditional formatting"],
+      "startDate": "2024-11",
+      "url": "https://docs.google.com/spreadsheets/d/1hG8Ou30pDZfOGhahvFu4V3KRl8sz8PVNwFCpSIMzpxA/edit",
+      "roles": ["Solo"],
+      "type": "application"
     }
   ]
 }
