@@ -242,21 +242,12 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
 
 ---
 
-## Certifications & Training
-
-<!-- Delete this section if empty. Only list credentials a hiring manager would recognize. -->
-
-- {{NOT YET DISCUSSED — any certifications, bootcamps, or substantial online programs? If none, delete this section.}}
-
----
-
-## Volunteer & Community
-
-<!-- Open-source contributions, mentoring, tutoring, community organizing. Delete if empty. -->
-
-- {{NOT YET DISCUSSED — any open-source contributions, mentoring, game jams, or community organizing? If none, delete this section.}}
-
----
+<!--
+  Certifications & Training and Volunteer & Community were DELETED, not left empty
+  (confirmed 08/2026: Caleb has neither). resume.json mirrors this with empty
+  "certificates" and "volunteer" arrays. Re-add a section only if that changes —
+  game jams, mentoring, and open-source contributions would all belong in Volunteer.
+-->
 
 ## Interests
 
