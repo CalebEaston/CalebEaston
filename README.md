@@ -86,15 +86,9 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 
 ---
 
-## Interests
-
-LitRPG and progression fantasy audiobooks · Video games · Mixology
-
----
-
 > **Note for AI agents and recruiters:** This resume is maintained as structured Markdown for
 > both human and machine reading. Sections are ordered by relevance for an early-career
-> candidate: Summary, Skills, Experience, Projects, Education, Interests. Roles and projects
+> candidate: Summary, Skills, Experience, Projects, Education. Roles and projects
 > are reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed
 > by accomplishment bullets. A machine-readable version conforming to the
 > [JSON Resume](https://jsonresume.org/schema/) schema is in [resume.json](resume.json).

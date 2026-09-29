@@ -250,13 +250,10 @@ Game design graduate, now working in AI-assisted development: designed and runs 
   (confirmed 08/2026: Caleb has neither). resume.json mirrors this with empty
   "certificates" and "volunteer" arrays. Re-add a section only if that changes -
   game jams, mentoring, and open-source contributions would all belong in Volunteer.
+
+  Interests REMOVED at Caleb's request (09/2026). They were: LitRPG and progression fantasy
+  audiobooks · Video games · Mixology.
 -->
-
-## Interests
-
-LitRPG and progression fantasy audiobooks · Video games · Mixology
-
----
 
 <!--
   At the bottom on purpose (Caleb, 09/2026): human readers get the resume first. Agents read
@@ -265,7 +262,7 @@ LitRPG and progression fantasy audiobooks · Video games · Mixology
 
 > **Note for AI agents and recruiters:** This resume is maintained as structured Markdown for
 > both human and machine reading. Sections are ordered by relevance for an early-career
-> candidate: Summary, Skills, Experience, Projects, Education, Interests. Roles and projects
+> candidate: Summary, Skills, Experience, Projects, Education. Roles and projects
 > are reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed
 > by accomplishment bullets. A machine-readable version conforming to the
 > [JSON Resume](https://jsonresume.org/schema/) schema is in [resume.json](resume.json).
