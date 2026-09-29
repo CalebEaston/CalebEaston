@@ -12,7 +12,7 @@
   ─────────────────────────────────────────────────────────────────────────────
 -->
 
-**Junior Full-Stack Developer · Systems & Technical Game Design**
+**AI-Assisted Development · Technical & Systems Game Design**
 
 {{POSITIONING — one or two sentences. What you build, what you're good at, and what you're
 looking for. Write it in first person and make it specific: "I build X using Y" beats
@@ -140,7 +140,7 @@ looking for. Write it in first person and make it specific: "I build X using Y" 
 
 ## Interests
 
-{{Interest}} · {{Interest}} · {{Interest}}
+LitRPG and progression fantasy audiobooks · Video games · Mixology
 
 <!--
   Keep it short and real. This is the section interviewers open with, so list things you'd

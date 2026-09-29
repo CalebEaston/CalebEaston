@@ -17,13 +17,13 @@
   ─────────────────────────────────────────────────────────────────────────────
 -->
 
-Systems & Technical Game Design · Moving into Full-Stack Development
+AI-Assisted Development · Technical & Systems Game Design
 
-Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [github.com/CalebEaston](https://github.com/CalebEaston)
+Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [github.com/CalebEaston](https://github.com/CalebEaston)
 
 > **Note for AI agents and recruiters:** This résumé is maintained as structured Markdown for
 > both human and machine reading. Sections are ordered by relevance for an early-career
-> candidate: Summary, Skills, Projects, Experience, Education. Projects and roles are
+> candidate: Summary, Skills, Experience, Projects, Education. Roles and projects are
 > reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed by
 > accomplishment bullets. Project deep-dives are in
 > [PROJECTS.md](PROJECTS.md); a machine-readable version conforming to the
@@ -42,11 +42,18 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
   + [what you're looking for].
 
   WRITTEN LAST, deliberately — it summarizes the Skills and Projects sections, so it can't be
-  written before those are real. Direction agreed 08/2026: lead as a full-stack developer,
-  with systems/technical game design as the differentiator rather than a competing title.
+  written before those are real.
+
+  DIRECTION (decided 09/2026, replaces the 08/2026 note): Caleb is looking for full-stack
+  work, and his dad (Rjae) is sending this PDF to his own professional contacts. The headline
+  leads with AI-assisted development because Caleb cannot yet walk an interviewer through
+  code. The ThinkTech job title stays "Junior Full-Stack Developer" because it is his real
+  title. Write the Summary around what he can talk about for an hour: running a multi-agent
+  AI workflow, triage and QA judgment, and game-design feel. It can say he is moving into
+  feature work, but no bullet may claim a feature until one exists.
 -->
 
-{{SUMMARY}}
+Game design graduate in AI-assisted development: designed and runs a multi-agent Claude Code workflow, bringing a game designer's eye for systems and feel to triage and QA. Seeking junior full-stack or AI-assisted development roles.
 
 ---
 
@@ -60,116 +67,32 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
   If you want to signal depth honestly, you can annotate: "TypeScript (primary)".
   Don't use star ratings or percentage bars — they read as padding.
 
-  ORDERED DELIBERATELY (08/2026): Game Development leads because that is where the depth and
-  the public evidence are, matching the design-first headline. Languages is honestly short —
-  Blueprints is the only one Caleb said he would defend in an interview. DO NOT PAD IT.
+  ORDERED DELIBERATELY (09/2026): AI-Assisted Development leads to match the headline, and
+  the ThinkTech role is its evidence. Game Development comes second: it is where Caleb's
+  hands-on depth and public evidence are. There is no Languages row: Blueprints is the only
+  language Caleb said he would defend in an interview, so it sits in Game Development. DO NOT
+  add a Languages row until a text language is real and defensible.
 
-  Three rows were DELETED rather than left empty — Frameworks & Libraries, Data & Storage,
-  and Testing. Caleb confirmed no web, no database, and no testing exposure (08/2026).
-  Re-add a row only when there is something real and defensible to put in it.
+  Deliberately generic (Caleb, 09/2026): "Unreal Engine" with no version, since he has worked
+  across versions. Version control and project-management tools are grouped by category,
+  because he treats them as interchangeable. The names stay in parentheses as keywords for
+  résumé-screening software.
+
+  PHP, Vue and MySQL must NOT appear in Skills. ThinkTech runs on them, but AI sessions wrote
+  every line, and Caleb confirmed (09/2026) he cannot explain the code. "Currently learning"
+  was cut to what he is actually doing: C#, through a Unity project he has started.
+
+  Three rows were DELETED rather than left empty: Frameworks & Libraries, Data & Storage,
+  and Testing. Re-add one only when there is something real and defensible to put in it.
 -->
 
-**Game Development:** Unreal Engine 5.6 · Blueprints · Unity · Machinations
+**AI-Assisted Development:** Claude Code · Multi-agent workflow design · Custom skills · Specifying and verifying AI-written work
 
-**Languages:** Blueprints (Unreal visual scripting)
+**Game Development:** Unreal Engine · Blueprints (visual scripting) · Unity · Machinations
 
-**AI-assisted development:** Claude Code — specifying, reviewing, and integrating AI-written implementations
+**Tools:** Version control (Git, GitHub, Perforce) · Project management (Trello, Jira, ClickUp) · Google Sheets · Excel
 
-**Tools:** Perforce · Git · ClickUp · Google Sheets · Excel
-
-**Practices:** Team-based development · Cross-discipline collaboration
-
-**Currently learning:** C# · TypeScript · Nuxt 4 / Vue 3 · PHP
-
----
-
-## Projects
-
-<!--
-  For an early-career résumé this section carries the most weight, so it sits above
-  Experience. List 3–5 here in full. Deep-dives and the long tail go in PROJECTS.md.
-
-  Each entry: name, one-line description, links, Stack line, then 2–4 bullets.
-  Bullets should answer: What did you build? What was hard? What was the result?
-
-  Write bullets in past tense with a strong verb: Built, Designed, Implemented, Automated,
-  Migrated, Reduced, Shipped. Never "Responsible for" or "Helped with".
--->
-
-### Rattles & Rayguns — Arena shooter: a rattlesnake gunslinger holds a frontier town against alien waves
-
-[itch.io](https://tjtriplett.itch.io/rattles-and-rayguns) · 07/2026
-
-**Stack:** Unreal Engine 5.6 · Blueprints
-
-- Built a modular weapon system in Unreal Engine 5.6 Blueprints, letting a designer create a new gun by setting variables on a child of a base weapon Blueprint instead of writing per-weapon logic.
-- Generalized weapon behavior into that base Blueprint — how a weapon spawns in the player's hands, how many projectiles fire per shot — so new weapons plugged in without modifying the shared system.
-- Owned the weapons system as one of 6 designers working alongside 4 artists, on a Full Sail capstone built and publicly released within a single month.
-
-<!--
-  Caleb is credited as "Caleb Easton (Weapons)" on the itch.io page — the claim above is publicly
-  verifiable, which is why the bullets name the system directly. The whole project ran inside
-  07/2026 (Full Sail's month-long course format), hence the single date rather than a range.
-  The itch.io page shows no ratings or download counts, so there is deliberately NO reception
-  bullet. Do not add one.
--->
-
-### A2B — Solo first-person parkour prototype in Unreal
-
-[Build]({{ITCH_IO_URL}}) · 09/2025 – 12/2025
-
-**Stack:** Unreal Engine · Blueprints
-
-- Built the movement and feel systems in Blueprints as a solo project, including a mantle, head-bob, and sound design.
-- Implemented a settings menu persisting FOV, mouse sensitivity, and head-bob across sessions, on reusable button and slider widgets shared by the pause, settings, and win screens.
-- Designed three test levels and a level loader to exercise the movement systems in isolation.
-- Delegated the wall-run to Claude Code after several partial rewrites failed to make it feel intuitive, specifying the target behavior and reviewing the result into the build.
-
-<!--
-  HONESTY BOUNDARY — the wall-run and the lasso/grapple mechanic were written by Claude Code,
-  NOT by Caleb. Everything else in this project is his: mantle, menus, head-bob, sound, the
-  settings save, the levels, the level loader. Never write a bullet claiming he implemented the
-  wall-run or the lasso. The fourth bullet is deliberately framed as delegation-and-judgment,
-  which is both true and the strongest interview story he has.
-
-  Repo is PRIVATE and stays private (853 MB, mostly stock Epic StarterContent, and Blueprints
-  do not render on GitHub — a reviewer would see nothing). The link must be an itch.io page
-  with a gameplay video; the repo is not a substitute. That is the remaining {{ITCH_IO_URL}}.
--->
-
-### Weekly Quest Log — Gamified task system that resets itself every week
-
-[Repo](https://github.com/CalebEaston/weekly-quest-log) · [Sheet](https://docs.google.com/spreadsheets/d/1Gcd-2OqzQJKP50ZNhw9G7SV7KWqO0Hj6VIi7UAVs6no/edit) · 10/2025
-
-**Stack:** Google Apps Script · JavaScript · Google Sheets
-
-- Designed a personal task system as a game progression loop, tiering work into main quests, side quests, and events with XP scaled to effort from 25 to 100 per task.
-- Automated the weekly reset in Google Apps Script, clearing quest completion state and the XP derived from it on a time-driven trigger.
-- Hardened the daily day-off sync against silent failure, checking for a range protection before writing and rethrowing so errors surface in the Apps Script execution log.
-
-<!--
-  Levels, an XP log, and unlockable rewards were DESIGNED BUT NEVER BUILT — only a skeleton exists
-  in the day list. Do NOT write a bullet claiming a leveling or reward system; an interviewer can
-  open the sheet. That unbuilt design belongs in the PROJECTS.md retrospective as future work.
-  ADHD was the motivation and is deliberately absent — Caleb's call, 08/2026. Do not reintroduce it.
--->
-
-### Camo Grind Tracker — Completion feedback system for the weapon-camo grind in Black Ops 6
-
-[Sheet](https://docs.google.com/spreadsheets/d/1hG8Ou30pDZfOGhahvFu4V3KRl8sz8PVNwFCpSIMzpxA/edit) · 11/2024
-
-**Stack:** Google Sheets · Conditional formatting
-
-- Modeled the full completion matrix across nine weapon categories and four camo tiers, with per-tier rollups driving the section states.
-- Designed per-item feedback so marking a camo complete flips its row from red to green and rewrites its status text, making progress readable at a glance.
-- Built section-level completion signalling that recolors an entire tier once its last weapon is finished, so a closed-out set is unmistakable.
-
-<!--
-  No Apps Script in this one — formulas and conditional formatting only (confirmed 08/2026).
-  Do not add JavaScript to its Stack line.
--->
-
-**Full write-ups:** [PROJECTS.md](PROJECTS.md)
+**Currently learning:** C# (through a Unity project) · C++
 
 ---
 
@@ -185,44 +108,123 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
   volume. Don't hide them — a candidate who worked 20 hours a week through school while
   shipping side projects is telling a good story.
 
-  DATE NOTE: the three service roles below are year-only because the exact months are not
+  DATE NOTE: the two service roles below are year-only because the exact months are not
   known. Fill in MM/YYYY when you can — the format contract asks for it.
+
+  SERVICE ROLES are heading + title line only, with no bullets (09/2026, to keep one page).
+  New City Micro Creamery has since moved within Hudson; the city is still correct.
+  Whole Foods Market (Floater · 2021 – 2022 · Wellesley, MA) was CUT for space, as the least
+  senior role. Saved in .ignored/cut-projects.md.
 -->
 
-### AppShapes — Software development studio taking on client engineering work
-**Junior Full-Stack Developer · Starting 09/2026** · Boston, MA
+### ThinkTech — Small startup building a PHP / Vue / MySQL K-12 learning platform
+**Junior Full-Stack Developer · 09/2026 – Present** · Remote
 
-**Stack:** TypeScript · Nuxt 4 / Vue 3 · PHP · MySQL · AWS
+**Stack:** Claude Code · GitHub · Trello
 
 <!--
-  Stack narrowed deliberately (decided 08/2026). The ThinkTech engagement spans four repos —
-  a PHP 7.4 / Slim 2 legacy monolith, a .NET 10 API, a Nuxt 4 migration target, and a Kotlin
-  Multiplatform app. The line above claims only the web tier Caleb is most likely to work in
-  first. Do NOT widen it to .NET or Kotlin until he has actually shipped against them.
+  HONESTY BOUNDARY (confirmed by Caleb, 09/2026). This follows the same rule as A2B's wall-run.
+  AI sessions wrote every line of ThinkTech code; Caleb cannot walk through it. His own work:
+  he designed the multi-session layout and its skills, triaged which bugs got worked,
+  dispatched them, and checked fixes by hand on the dev site for look and feel. Verbs stop
+  there: designed / directed / triaged / dispatched / checked. NEVER "built", "fixed", "wrote"
+  or "implemented" for ThinkTech code. PHP / Vue / MySQL appear only as a description of the
+  platform, never as his skills, and never in the Stack line.
 
-  The bullet below is a SCOPE line, not an accomplishment — the role has not started, so there
-  is nothing to claim yet. It deliberately breaks the past-tense-action-verb rule rather than
-  dress an unstarted role up as shipped work. Replace it with real outcome bullets once there
-  are some; that is when the bullet rules apply.
+  NOT HIS, never claim: the AI code review, auto-merge and fix-bot pipeline. Rjae (his dad,
+  and the person sending this résumé) built those Feb–Aug 2026, before Caleb started.
+
+  Numbers were counted from GitHub and origin/master on 2026-09-29, not taken from the
+  AI-written tally in .ignored/. The first PR was 2026-09-09. There were 208 merged PRs
+  (#283–#493): ~180 bug fixes, 17 small enhancements, 6 process PRs, 5 other. They cover 136
+  Trello cards (1848–2136). ~30 are security fixes, a SUBSET of the 180, of which ~20 are
+  district-isolation fixes. Describe security GENERICALLY ONLY: this repo is public and
+  ThinkTech is a live K-12 product.
+
+  Wording decisions (Caleb, 09/2026):
+  - No exact time spans ("three weeks"). Use "under a month" / "within the first month".
+  - "Small startup", with no headcount; he doesn't know the exact number.
+  - No "contract" / "via AppShapes": the arrangement is informal. Title and dates alone are
+    accurate.
+  - Migration bullet: the rule came AFTER a migration crashed a production deploy on
+    2026-09-19 (#342, redone as #372, rule in #371). Do not reword it as foresight.
+  - Feature work is planned but has not started. Add a bullet only once a feature exists.
+  - Bullets kept for one page (Caleb's pick): workflow design, PR volume, triage/dispatch,
+    security. CUT for space, but true and usable if room opens up: "Added a blocking
+    AI-review rule that database migrations must be safe at production scale, after a
+    migration crashed a production deploy" and "Checked fixes by hand on the development
+    site for look and feel, on top of the AI testers' functional checks."
+
+  NOT verified, do not claim: fixes "verified on staging before merge" (PRs auto-merge on AI
+  approval, before deploy); "shipped" for everything (14 PRs merged after 09-28 were not yet
+  in production); any .NET, React/TypeScript, AWS or CI work.
 -->
 
-- Incoming scope: full-stack contract work on ThinkTech, a multi-tenant K-12 learning platform,
-  paired with the lead developer across front end and back end.
+- Designed a multi-agent Claude Code workflow (coordinator, implementers, AI testers, support) and grew it to eight sessions.
+- Directed 208 merged pull requests through it in under a month: about 180 bug fixes across 136 Trello cards.
+- Triaged the AI testers' bug reports and dispatched fixes in batches via a custom `/dispatch` skill that files Trello cards.
+- Directed about 30 security fixes, about 20 of them closing gaps in data isolation between school districts.
 
 ### New City Micro Creamery
-**Shift Manager · 2022** · {{City, State}}
-
-- Managed shifts as the on-duty lead over roughly four months {{— add: staff per shift, and one thing you owned (open/close, cash handling, scheduling, training)}}.
-
-### Whole Foods Market
-**Floater · 2021 – 2022** · {{City, State}}
-
-- Covered whichever department needed staffing that day {{— add: which departments, and anything you were specifically trusted with}}.
+**Shift Manager · 2022** · Hudson, MA
 
 ### Fun @ Games
-**Assistant Manager · 2018 – 2020** · {{City, State}}
+**Assistant Manager · 2018 – 2020** · Framingham, MA
 
-- Supervised floor staff and daily operations as assistant manager {{— add: team size, what you owned, and anything you measurably improved}}.
+---
+
+## Projects
+
+<!--
+  Moved BELOW Experience in 09/2026: the ThinkTech role is now the main evidence for the
+  AI-assisted-development headline, so it leads. Cut to two projects to keep one page. A2B
+  (no public link yet) and Camo Grind Tracker are saved in .ignored/cut-projects.md.
+
+  Each entry: name, one-line description, links, Stack line, then 2–4 bullets.
+  Bullets should answer: What did you build? What was hard? What was the result?
+
+  Write bullets in past tense with a strong verb: Built, Designed, Implemented, Automated,
+  Migrated, Reduced, Shipped. Never "Responsible for" or "Helped with".
+-->
+
+### Rattles & Rayguns — Arena shooter: a rattlesnake gunslinger holds a frontier town against alien waves
+
+[itch.io](https://tjtriplett.itch.io/rattles-and-rayguns) · 07/2026
+
+**Stack:** Unreal Engine 5.6 · Blueprints
+
+- Built a modular Blueprint weapon system: new guns are children of a base weapon, set by variables, with no per-weapon logic.
+- Owned the weapons system as one of 6 designers alongside 4 artists, on a Full Sail capstone built and released in one month.
+
+<!--
+  Caleb is credited as "Caleb Easton (Weapons)" on the itch.io page — the claim above is publicly
+  verifiable, which is why the bullets name the system directly. The whole project ran inside
+  07/2026 (Full Sail's month-long course format), hence the single date rather than a range.
+  The itch.io page shows no ratings or download counts, so there is deliberately NO reception
+  bullet. Do not add one.
+-->
+
+### Weekly Quest Log — Gamified task system that resets itself every week
+
+[Repo](https://github.com/CalebEaston/weekly-quest-log) · [Sheet](https://docs.google.com/spreadsheets/d/1Gcd-2OqzQJKP50ZNhw9G7SV7KWqO0Hj6VIi7UAVs6no/edit) · 10/2025
+
+**Stack:** Claude Code · Google Sheets
+
+- Designed a task system as a game progression loop: main quests, side quests and events, with XP from 25 to 100 by effort.
+- Specified a weekly reset of quests and earned XP on a timed trigger, implemented by Claude Code in Google Apps Script.
+
+<!--
+  Levels, an XP log, and unlockable rewards were DESIGNED BUT NEVER BUILT — only a skeleton exists
+  in the day list. Do NOT write a bullet claiming a leveling or reward system; an interviewer can
+  open the sheet. That unbuilt design belongs in the PROJECTS.md retrospective as future work.
+  ADHD was the motivation and is deliberately absent — Caleb's call, 08/2026. Do not reintroduce it.
+
+  HONESTY BOUNDARY (confirmed 09/2026): Claude Code wrote ALL of the Apps Script. The design
+  and ideas are Caleb's. So the bullets say "designed" and "specified … implemented by Claude
+  Code", never "automated", "built" or "hardened", and the Stack line does not list
+  JavaScript. The cut bullet about the day-off sync failing loudly was code-level work by
+  Claude, so it stays out.
+-->
 
 ---
 
@@ -231,11 +233,12 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
 ### Full Sail University — Winter Park, FL
 **B.S. Game Design · Graduated 07/2026**
 
-- **Relevant coursework:** {{Pull the exact titles from your transcript. Known themes to look for: producing / production for the games industry, and the several team-based development courses.}}
-- **Capstone:** Shipped *Rattles & Rayguns*, a team game released publicly on itch.io.
 
 <!--
   GPA line intentionally omitted — house rule is 3.5+ only.
+  Coursework line CUT (Caleb, 09/2026): Full Sail's format is many short courses, and none
+  earns the space. The capstone line was cut too, because Rattles & Rayguns under Projects
+  already says it was the Full Sail capstone.
   No honors, scholarships, or clubs (confirmed 08/2026), so those lines are deleted rather
   than left empty.
 -->
@@ -247,13 +250,10 @@ Boston, Massachusetts · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [g
   (confirmed 08/2026: Caleb has neither). resume.json mirrors this with empty
   "certificates" and "volunteer" arrays. Re-add a section only if that changes —
   game jams, mentoring, and open-source contributions would all belong in Volunteer.
+
+  Interests MOVED to README.md (09/2026) to keep this one page: LitRPG and progression
+  fantasy audiobooks · Video games · Mixology.
 -->
-
-## Interests
-
-{{Interest}} · {{Interest}} · {{Interest}} · {{Interest}}
-
----
 
 <!--
   ── Résumé review checklist ──────────────────────────────────────────────────

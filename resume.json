@@ -3,17 +3,17 @@
   "meta": {
     "canonical": "https://github.com/CalebEaston/CalebEaston/blob/master/resume.json",
     "version": "1.0.0",
-    "lastModified": "2026-08-13",
-    "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place. Service-role dates are year-only because exact months are not known; replace with YYYY-MM when available."
+    "lastModified": "2026-09-29",
+    "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place. Service-role dates are year-only because exact months are not known; replace with YYYY-MM when available. Interests live in README.md only, for space."
   },
   "basics": {
     "name": "Caleb Easton",
-    "label": "Systems & Technical Game Design · Moving into Full-Stack Development",
+    "label": "AI-Assisted Development · Technical & Systems Game Design",
     "image": "",
     "email": "caleb@appshapes.com",
     "phone": "",
     "url": "https://github.com/CalebEaston",
-    "summary": "{{SUMMARY — same 3-4 sentences as the Summary section of RESUME.md, written last}}",
+    "summary": "Game design graduate in AI-assisted development: designed and runs a multi-agent Claude Code workflow, bringing a game designer's eye for systems and feel to triage and QA. Seeking junior full-stack or AI-assisted development roles. Based in Boston; open to on-site in Massachusetts or remote.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,42 +31,37 @@
   },
   "work": [
     {
-      "name": "AppShapes",
+      "name": "ThinkTech",
       "position": "Junior Full-Stack Developer",
       "url": "",
-      "location": "Boston, MA",
+      "location": "Remote",
       "startDate": "2026-09",
-      "summary": "Software development studio taking on client engineering work. Role begins 09/2026; incoming scope is full-stack contract work on ThinkTech, a multi-tenant K-12 learning platform, paired with the lead developer across front end and back end. Stack: TypeScript · Nuxt 4 / Vue 3 · PHP · MySQL · AWS.",
-      "highlights": []
+      "summary": "Small startup building a PHP / Vue / MySQL K-12 learning platform. Stack: Claude Code · GitHub · Trello.",
+      "highlights": [
+        "Designed a multi-agent Claude Code workflow (coordinator, implementers, AI testers, support) and grew it to eight sessions.",
+        "Directed 208 merged pull requests through it in under a month: about 180 bug fixes across 136 Trello cards.",
+        "Triaged the AI testers' bug reports and dispatched fixes in batches via a custom /dispatch skill that files Trello cards.",
+        "Directed about 30 security fixes, about 20 of them closing gaps in data isolation between school districts."
+      ]
     },
     {
       "name": "New City Micro Creamery",
       "position": "Shift Manager",
       "url": "",
-      "location": "{{City, State}}",
+      "location": "Hudson, MA",
       "startDate": "2022",
       "endDate": "2022",
-      "summary": "Managed shifts as the on-duty lead over roughly four months.",
-      "highlights": []
-    },
-    {
-      "name": "Whole Foods Market",
-      "position": "Floater",
-      "url": "",
-      "location": "{{City, State}}",
-      "startDate": "2021",
-      "endDate": "2022",
-      "summary": "Covered whichever department needed staffing that day.",
+      "summary": "",
       "highlights": []
     },
     {
       "name": "Fun @ Games",
       "position": "Assistant Manager",
       "url": "",
-      "location": "{{City, State}}",
+      "location": "Framingham, MA",
       "startDate": "2018",
       "endDate": "2020",
-      "summary": "Supervised floor staff and daily operations.",
+      "summary": "",
       "highlights": []
     }
   ],
@@ -78,9 +73,7 @@
       "area": "Game Design",
       "studyType": "Bachelor of Science",
       "endDate": "2026-07",
-      "courses": [
-        "{{Exact course titles from transcript — known themes: games-industry production, team-based development}}"
-      ]
+      "courses": []
     }
   ],
   "awards": [],
@@ -88,37 +81,42 @@
   "publications": [],
   "skills": [
     {
-      "name": "Game Development",
-      "level": "",
-      "keywords": ["Unreal Engine 5.6", "Blueprints", "Unity", "Machinations"]
-    },
-    {
-      "name": "Languages",
-      "level": "",
-      "keywords": ["Blueprints (Unreal visual scripting)"]
-    },
-    {
-      "name": "AI-assisted development",
+      "name": "AI-Assisted Development",
       "level": "",
       "keywords": [
         "Claude Code",
-        "Specifying, reviewing, and integrating AI-written implementations"
+        "Multi-agent workflow design",
+        "Custom skills",
+        "Specifying and verifying AI-written work"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "level": "",
+      "keywords": [
+        "Unreal Engine",
+        "Blueprints (visual scripting)",
+        "Unity",
+        "Machinations"
       ]
     },
     {
       "name": "Tools",
       "level": "",
-      "keywords": ["Perforce", "Git", "ClickUp", "Google Sheets", "Excel"]
-    },
-    {
-      "name": "Practices",
-      "level": "",
-      "keywords": ["Team-based development", "Cross-discipline collaboration"]
+      "keywords": [
+        "Version control (Git, GitHub, Perforce)",
+        "Project management (Trello, Jira, ClickUp)",
+        "Google Sheets",
+        "Excel"
+      ]
     },
     {
       "name": "Currently learning",
       "level": "Learning",
-      "keywords": ["C#", "TypeScript", "Nuxt 4 / Vue 3", "PHP"]
+      "keywords": [
+        "C# (through a Unity project)",
+        "C++"
+      ]
     }
   ],
   "languages": [
@@ -127,72 +125,45 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "{{Interest}}",
-      "keywords": []
-    }
-  ],
+  "interests": [],
   "references": [],
   "projects": [
     {
       "name": "Rattles & Rayguns",
       "description": "Arena shooter in which a rattlesnake gunslinger defends a frontier town against waves of alien invaders.",
       "highlights": [
-        "Built a modular weapon system in Unreal Engine 5.6 Blueprints, letting a designer create a new gun by setting variables on a child of a base weapon Blueprint instead of writing per-weapon logic.",
-        "Generalized weapon behavior into that base Blueprint — how a weapon spawns in the player's hands, how many projectiles fire per shot — so new weapons plugged in without modifying the shared system.",
-        "Owned the weapons system as one of 6 designers working alongside 4 artists, on a Full Sail capstone built and publicly released within a single month."
+        "Built a modular Blueprint weapon system: new guns are children of a base weapon, set by variables, with no per-weapon logic.",
+        "Owned the weapons system as one of 6 designers alongside 4 artists, on a Full Sail capstone built and released in one month."
       ],
-      "keywords": ["Unreal Engine 5.6", "Blueprints"],
+      "keywords": [
+        "Unreal Engine 5.6",
+        "Blueprints"
+      ],
       "startDate": "2026-07",
       "endDate": "2026-07",
       "url": "https://tjtriplett.itch.io/rattles-and-rayguns",
-      "roles": ["Designer — Weapons"],
+      "roles": [
+        "Designer — Weapons"
+      ],
       "entity": "Full Sail University — final/capstone project",
       "type": "game"
     },
     {
-      "name": "A2B",
-      "description": "Solo first-person parkour prototype built in Unreal Engine with Blueprints.",
-      "highlights": [
-        "Built the movement and feel systems in Blueprints as a solo project, including a mantle, head-bob, and sound design.",
-        "Implemented a settings menu persisting FOV, mouse sensitivity, and head-bob across sessions, on reusable button and slider widgets shared by the pause, settings, and win screens.",
-        "Designed three test levels and a level loader to exercise the movement systems in isolation.",
-        "Delegated the wall-run to Claude Code after several partial rewrites failed to make it feel intuitive, specifying the target behavior and reviewing the result into the build."
-      ],
-      "keywords": ["Unreal Engine", "Blueprints"],
-      "startDate": "2025-09",
-      "endDate": "2025-12",
-      "url": "{{ITCH_IO_URL}}",
-      "roles": ["Solo"],
-      "type": "game"
-    },
-    {
       "name": "Weekly Quest Log",
-      "description": "Gamified personal task system in Google Sheets that resets itself every week via a time-driven Apps Script trigger.",
+      "description": "Gamified personal task system in Google Sheets that resets itself every week. Designed by Caleb; the Apps Script was written by Claude Code.",
       "highlights": [
-        "Designed a personal task system as a game progression loop, tiering work into main quests, side quests, and events with XP scaled to effort from 25 to 100 per task.",
-        "Automated the weekly reset in Google Apps Script, clearing quest completion state and the XP derived from it on a time-driven trigger.",
-        "Hardened the daily day-off sync against silent failure, checking for a range protection before writing and rethrowing so errors surface in the Apps Script execution log."
+        "Designed a task system as a game progression loop: main quests, side quests and events, with XP from 25 to 100 by effort.",
+        "Specified a weekly reset of quests and earned XP on a timed trigger, implemented by Claude Code in Google Apps Script."
       ],
-      "keywords": ["Google Apps Script", "JavaScript", "Google Sheets"],
+      "keywords": [
+        "Claude Code",
+        "Google Sheets"
+      ],
       "startDate": "2025-10",
       "url": "https://github.com/CalebEaston/weekly-quest-log",
-      "roles": ["Solo"],
-      "type": "application"
-    },
-    {
-      "name": "Camo Grind Tracker",
-      "description": "Completion feedback system in Google Sheets for the weapon-camo grind in Call of Duty: Black Ops 6.",
-      "highlights": [
-        "Modeled the full completion matrix across nine weapon categories and four camo tiers, with per-tier rollups driving the section states.",
-        "Designed per-item feedback so marking a camo complete flips its row from red to green and rewrites its status text, making progress readable at a glance.",
-        "Built section-level completion signalling that recolors an entire tier once its last weapon is finished, so a closed-out set is unmistakable."
+      "roles": [
+        "Solo"
       ],
-      "keywords": ["Google Sheets", "Conditional formatting"],
-      "startDate": "2024-11",
-      "url": "https://docs.google.com/spreadsheets/d/1hG8Ou30pDZfOGhahvFu4V3KRl8sz8PVNwFCpSIMzpxA/edit",
-      "roles": ["Solo"],
       "type": "application"
     }
   ]

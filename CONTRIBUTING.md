@@ -50,7 +50,7 @@ npx md-to-pdf RESUME.md --stylesheet assets/resume.css
 ```
 
 Opens as `RESUME.pdf` in the repo root; it's gitignored. If it spills to a second page, the
-two fastest fixes are marked `TIGHTEN` in `assets/resume.css`.
+fastest fixes are marked `TIGHTEN` in `assets/resume.css`.
 
 ## Before applying anywhere
 

@@ -3,7 +3,7 @@
  * Only affects the PDF — GitHub renders Markdown with its own styles and ignores this.
  *
  * Tuned for density: an early-career résumé should fit on one page, and the fastest
- * levers are the two marked TIGHTEN below.
+ * levers are marked TIGHTEN below (font size, line height, heading spacing).
  */
 
 :root {
@@ -15,8 +15,8 @@
 
 body {
   font-family: "Charter", "Georgia", "Times New Roman", serif;
-  font-size: 10.5pt;      /* TIGHTEN: drop to 10pt to claw back a few lines */
-  line-height: 1.42;      /* TIGHTEN: 1.35 is still comfortable */
+  font-size: 10pt;        /* TIGHTEN: was 10.5pt; 10pt is the floor for readability */
+  line-height: 1.35;      /* TIGHTEN: was 1.42; 1.35 is still comfortable */
   color: var(--ink);
   max-width: none;
   margin: 0;
@@ -54,7 +54,7 @@ h2 {
   color: var(--accent);
   border-bottom: 0.9pt solid var(--rule);
   padding-bottom: 2pt;
-  margin: 15pt 0 7pt;
+  margin: 10pt 0 5pt;     /* TIGHTEN: heading spacing, was 15pt 0 7pt */
   page-break-after: avoid;
 }
 
@@ -62,7 +62,7 @@ h2 {
 h3 {
   font-size: 11pt;
   font-weight: 700;
-  margin: 9pt 0 1pt;
+  margin: 6pt 0 1pt;      /* TIGHTEN: heading spacing, was 9pt 0 1pt */
   page-break-after: avoid;
 }
 

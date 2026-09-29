@@ -27,5 +27,5 @@ Résumé repo. Renders at github.com/CalebEaston. Branch is `master` — never `
 
 ## Ops
 
-- PDF must stay one page: tighten via the two `TIGHTEN` markers in `assets/resume.css`.
+- PDF must stay one page: tighten via the `TIGHTEN` markers in `assets/resume.css` (font size, line height, heading spacing). It currently fits with little room to spare, so any addition needs a matching cut.
 - Never delete/recreate this repo (profile-README namespace risk). If the profile README stops rendering: owner clicks "Share to profile" on the repo page.
