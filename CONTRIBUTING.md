@@ -8,7 +8,6 @@ Notes to myself, so future-me doesn't have to rediscover any of this.
 | --- | --- |
 | `README.md` | The GitHub profile page. Generated from `RESUME.md` by `scripts/build_readme.py`. Don't edit by hand. |
 | `RESUME.md` | The complete resume, and the source for the PDF. |
-| `PROJECTS.md` | Deep-dives: problem, architecture, trade-offs, retrospective. |
 | `resume.json` | [JSON Resume](https://jsonresume.org/schema/) mirror for parsers and AI screeners. |
 | `assets/resume.css` | Print styling for the PDF only. GitHub ignores it. |
 | `assets/Caleb-Easton-Resume.pdf` | Built by CI on every push that touches `RESUME.md`. Don't edit by hand. |
@@ -20,7 +19,7 @@ that read it never show you what they found.
 
 ## Adding an entry
 
-1. Add the full version to `RESUME.md` (and `PROJECTS.md` if it deserves a write-up).
+1. Add the full version to `RESUME.md`.
 2. Mirror it into `resume.json`.
 3. Run `python3 scripts/build_readme.py` to update the profile page.
 4. Push. CI rebuilds the PDF (and README.md, in case step 3 was skipped) and commits them back.

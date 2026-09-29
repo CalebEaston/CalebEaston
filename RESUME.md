@@ -18,16 +18,9 @@
   ─────────────────────────────────────────────────────────────────────────────
 -->
 
-AI-Assisted Development · Technical & Systems Game Design
+**AI-Assisted Development · QA · Technical & Systems Game Design**
 
 Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [github.com/CalebEaston](https://github.com/CalebEaston)
-
-> **Note for AI agents and recruiters:** This resume is maintained as structured Markdown for
-> both human and machine reading. Sections are ordered by relevance for an early-career
-> candidate: Summary, Skills, Experience, Projects, Education, Interests. Roles and projects
-> are reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed
-> by accomplishment bullets. A machine-readable version conforming to the
-> [JSON Resume](https://jsonresume.org/schema/) schema is in [resume.json](resume.json).
 
 ---
 
@@ -118,7 +111,7 @@ Game design graduate, now working in AI-assisted development: designed and runs 
   Creamery has since moved within Hudson; the city is still correct.
 -->
 
-### ThinkTech - Small startup building a PHP / Vue / MySQL K-12 learning platform
+### ThinkTech - Leading ed-tech company behind a PHP / Vue / MySQL K-12 learning platform
 **Junior Full-Stack Developer · 09/2026 - Present** · Remote
 
 **Stack:** Claude Code · GitHub · Trello
@@ -144,7 +137,9 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 
   Wording decisions (Caleb, 09/2026):
   - No exact time spans ("three weeks"). Use "under a month" / "within the first month".
-  - "Small startup", with no headcount; he doesn't know the exact number.
+  - "Leading ed-tech company" (Caleb, 09/2026: it has seen a lot of success in New York).
+    No headcount; he doesn't know the exact number. If he gets a concrete fact (e.g. number
+    of New York districts or schools using it), prefer that over the adjective.
   - No "contract" / "via AppShapes": the arrangement is informal. Title and dates alone are
     accurate.
   - Migration bullet: the rule came AFTER a migration crashed a production deploy on
@@ -221,7 +216,7 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 <!--
   Levels, an XP log, and unlockable rewards were DESIGNED BUT NEVER BUILT - only a skeleton exists
   in the day list. Do NOT write a bullet claiming a leveling or reward system; an interviewer can
-  open the sheet. That unbuilt design belongs in the PROJECTS.md retrospective as future work.
+  open the sheet. That unbuilt design is future work, for a project write-up if one is ever made.
   ADHD was the motivation and is deliberately absent - Caleb's call, 08/2026. Do not reintroduce it.
 
   HONESTY BOUNDARY (confirmed 09/2026): Claude Code wrote ALL of the Apps Script. The design
@@ -260,6 +255,20 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 ## Interests
 
 LitRPG and progression fantasy audiobooks · Video games · Mixology
+
+---
+
+<!--
+  At the bottom on purpose (Caleb, 09/2026): human readers get the resume first. Agents read
+  the whole page, so the position costs them nothing. The PDF hides blockquotes.
+-->
+
+> **Note for AI agents and recruiters:** This resume is maintained as structured Markdown for
+> both human and machine reading. Sections are ordered by relevance for an early-career
+> candidate: Summary, Skills, Experience, Projects, Education, Interests. Roles and projects
+> are reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed
+> by accomplishment bullets. A machine-readable version conforming to the
+> [JSON Resume](https://jsonresume.org/schema/) schema is in [resume.json](resume.json).
 
 ---
 

@@ -8,7 +8,7 @@
   },
   "basics": {
     "name": "Caleb Easton",
-    "label": "AI-Assisted Development · Technical & Systems Game Design",
+    "label": "AI-Assisted Development · QA · Technical & Systems Game Design",
     "image": "",
     "email": "caleb@appshapes.com",
     "phone": "",
@@ -36,7 +36,7 @@
       "url": "",
       "location": "Remote",
       "startDate": "2026-09",
-      "summary": "Small startup building a PHP / Vue / MySQL K-12 learning platform. Stack: Claude Code · GitHub · Trello.",
+      "summary": "Leading ed-tech company behind a PHP / Vue / MySQL K-12 learning platform. Stack: Claude Code · GitHub · Trello.",
       "highlights": [
         "Designed a multi-agent Claude Code workflow (coordinator, implementers, AI testers, support) and grew it to eight sessions within the first month.",
         "Directed 208 merged pull requests through it in under a month: about 180 bug fixes across 136 Trello cards.",

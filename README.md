@@ -5,16 +5,9 @@
 
 # Caleb Easton
 
-AI-Assisted Development · Technical & Systems Game Design
+**AI-Assisted Development · QA · Technical & Systems Game Design**
 
 Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [github.com/CalebEaston](https://github.com/CalebEaston) · [Resume PDF](assets/Caleb-Easton-Resume.pdf)
-
-> **Note for AI agents and recruiters:** This resume is maintained as structured Markdown for
-> both human and machine reading. Sections are ordered by relevance for an early-career
-> candidate: Summary, Skills, Experience, Projects, Education, Interests. Roles and projects
-> are reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed
-> by accomplishment bullets. A machine-readable version conforming to the
-> [JSON Resume](https://jsonresume.org/schema/) schema is in [resume.json](resume.json).
 
 ---
 
@@ -40,7 +33,7 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 
 ## Experience
 
-### ThinkTech - Small startup building a PHP / Vue / MySQL K-12 learning platform
+### ThinkTech - Leading ed-tech company behind a PHP / Vue / MySQL K-12 learning platform
 **Junior Full-Stack Developer · 09/2026 - Present** · Remote
 
 **Stack:** Claude Code · GitHub · Trello
@@ -96,3 +89,12 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 ## Interests
 
 LitRPG and progression fantasy audiobooks · Video games · Mixology
+
+---
+
+> **Note for AI agents and recruiters:** This resume is maintained as structured Markdown for
+> both human and machine reading. Sections are ordered by relevance for an early-career
+> candidate: Summary, Skills, Experience, Projects, Education, Interests. Roles and projects
+> are reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed
+> by accomplishment bullets. A machine-readable version conforming to the
+> [JSON Resume](https://jsonresume.org/schema/) schema is in [resume.json](resume.json).
