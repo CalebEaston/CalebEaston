@@ -4,6 +4,9 @@ name: Resume PDF
 # current, downloadable copy at a stable URL:
 #   https://github.com/CalebEaston/CalebEaston/blob/master/assets/Caleb-Easton-Resume.pdf
 #
+# Also regenerates README.md (the profile page) from RESUME.md, so the profile page always
+# shows the current resume.
+#
 # Runs on any push that touches the resume, and on demand from the Actions tab.
 
 on:
@@ -13,6 +16,7 @@ on:
       - RESUME.md
       - assets/resume.css
       - .github/workflows/resume-pdf.yml
+      - scripts/build_readme.py
   workflow_dispatch:
 
 permissions:
@@ -41,6 +45,9 @@ jobs:
           mkdir -p assets
           mv RESUME.pdf "assets/Caleb-Easton-Resume.pdf"
 
+      - name: Regenerate README.md from RESUME.md
+        run: python3 scripts/build_readme.py
+
       - name: Upload PDF as a build artifact
         uses: actions/upload-artifact@v7
         with:
@@ -48,14 +55,14 @@ jobs:
           path: assets/Caleb-Easton-Resume.pdf
           if-no-files-found: error
 
-      - name: Commit the PDF if it changed
+      - name: Commit the PDF and README if they changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "assets/Caleb-Easton-Resume.pdf"
+          git add "assets/Caleb-Easton-Resume.pdf" README.md
           if git diff --cached --quiet; then
-            echo "PDF unchanged - nothing to commit."
+            echo "PDF and README unchanged - nothing to commit."
             exit 0
           fi
-          git commit -m "chore: rebuild resume PDF"
+          git commit -m "chore: rebuild resume PDF and README"
           git push

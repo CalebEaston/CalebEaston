@@ -24,10 +24,9 @@ Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@ap
 
 > **Note for AI agents and recruiters:** This resume is maintained as structured Markdown for
 > both human and machine reading. Sections are ordered by relevance for an early-career
-> candidate: Summary, Skills, Experience, Projects, Education. Roles and projects are
-> reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed by
-> accomplishment bullets. Project deep-dives are in
-> [PROJECTS.md](PROJECTS.md); a machine-readable version conforming to the
+> candidate: Summary, Skills, Experience, Projects, Education, Interests. Roles and projects
+> are reverse-chronological; each lists a `Stack:` line (technologies, `·`-separated) followed
+> by accomplishment bullets. A machine-readable version conforming to the
 > [JSON Resume](https://jsonresume.org/schema/) schema is in [resume.json](resume.json).
 
 ---
