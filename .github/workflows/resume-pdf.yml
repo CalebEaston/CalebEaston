@@ -1,10 +1,10 @@
-name: Résumé PDF
+name: Resume PDF
 
 # Renders RESUME.md to a PDF and commits it to assets/ so there is always a
 # current, downloadable copy at a stable URL:
 #   https://github.com/CalebEaston/CalebEaston/blob/master/assets/Caleb-Easton-Resume.pdf
 #
-# Runs on any push that touches the résumé, and on demand from the Actions tab.
+# Runs on any push that touches the resume, and on demand from the Actions tab.
 
 on:
   push:
@@ -54,8 +54,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "assets/Caleb-Easton-Resume.pdf"
           if git diff --cached --quiet; then
-            echo "PDF unchanged — nothing to commit."
+            echo "PDF unchanged - nothing to commit."
             exit 0
           fi
-          git commit -m "chore: rebuild résumé PDF"
+          git commit -m "chore: rebuild resume PDF"
           git push

@@ -1,8 +1,8 @@
 /*
- * Print stylesheet for the résumé PDF built by .github/workflows/resume-pdf.yml.
- * Only affects the PDF — GitHub renders Markdown with its own styles and ignores this.
+ * Print stylesheet for the resume PDF built by .github/workflows/resume-pdf.yml.
+ * Only affects the PDF - GitHub renders Markdown with its own styles and ignores this.
  *
- * Tuned for density: an early-career résumé should fit on one page, and the fastest
+ * Tuned for density: an early-career resume should fit on one page, and the fastest
  * levers are marked TIGHTEN below (font size, line height, heading spacing).
  */
 
@@ -109,7 +109,7 @@ code {
   border-radius: 2pt;
 }
 
-/* The "Note for AI agents and recruiters" blockquote — useful in the repo, noise on
+/* The "Note for AI agents and recruiters" blockquote - useful in the repo, noise on
  * paper. Hidden in the PDF; delete this rule if you want it printed. */
 blockquote {
   display: none;

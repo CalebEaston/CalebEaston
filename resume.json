@@ -4,7 +4,7 @@
     "canonical": "https://github.com/CalebEaston/CalebEaston/blob/master/resume.json",
     "version": "1.0.0",
     "lastModified": "2026-09-29",
-    "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place. Service-role dates are year-only because exact months are not known; replace with YYYY-MM when available. Interests live in README.md only, for space."
+    "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place. Service-role dates are year-only because exact months are not known; replace with YYYY-MM when available."
   },
   "basics": {
     "name": "Caleb Easton",
@@ -13,7 +13,7 @@
     "email": "caleb@appshapes.com",
     "phone": "",
     "url": "https://github.com/CalebEaston",
-    "summary": "Game design graduate in AI-assisted development: designed and runs a multi-agent Claude Code workflow, bringing a game designer's eye for systems and feel to triage and QA. Seeking junior full-stack or AI-assisted development roles. Based in Boston; open to on-site in Massachusetts or remote.",
+    "summary": "Game design graduate, now working in AI-assisted development: designed and runs a multi-agent Claude Code workflow that merged 208 pull requests on a live K-12 learning platform in under a month. Brings a game designer's eye for systems and feel to triage and QA. Seeking junior full-stack or AI-assisted development roles. Based in Boston; open to on-site in Massachusetts or remote.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -38,10 +38,12 @@
       "startDate": "2026-09",
       "summary": "Small startup building a PHP / Vue / MySQL K-12 learning platform. Stack: Claude Code · GitHub · Trello.",
       "highlights": [
-        "Designed a multi-agent Claude Code workflow (coordinator, implementers, AI testers, support) and grew it to eight sessions.",
+        "Designed a multi-agent Claude Code workflow (coordinator, implementers, AI testers, support) and grew it to eight sessions within the first month.",
         "Directed 208 merged pull requests through it in under a month: about 180 bug fixes across 136 Trello cards.",
         "Triaged the AI testers' bug reports and dispatched fixes in batches via a custom /dispatch skill that files Trello cards.",
-        "Directed about 30 security fixes, about 20 of them closing gaps in data isolation between school districts."
+        "Directed about 30 security fixes, about 20 of them closing gaps in data isolation between school districts.",
+        "Added a blocking AI-review rule that database migrations must be safe at production scale, after a migration crashed a production deploy.",
+        "Checked fixes by hand on the development site for look and feel, on top of the AI testers' functional checks."
       ]
     },
     {
@@ -50,6 +52,16 @@
       "url": "",
       "location": "Hudson, MA",
       "startDate": "2022",
+      "endDate": "2022",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Whole Foods Market",
+      "position": "Floater",
+      "url": "",
+      "location": "Wellesley, MA",
+      "startDate": "2021",
       "endDate": "2022",
       "summary": "",
       "highlights": []
@@ -101,6 +113,15 @@
       ]
     },
     {
+      "name": "QA",
+      "level": "",
+      "keywords": [
+        "Bug triage",
+        "Hands-on testing on a development site",
+        "Directing AI tester sessions"
+      ]
+    },
+    {
       "name": "Tools",
       "level": "",
       "keywords": [
@@ -125,7 +146,20 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "LitRPG and progression fantasy audiobooks",
+      "keywords": []
+    },
+    {
+      "name": "Video games",
+      "keywords": []
+    },
+    {
+      "name": "Mixology",
+      "keywords": []
+    }
+  ],
   "references": [],
   "projects": [
     {
@@ -133,6 +167,7 @@
       "description": "Arena shooter in which a rattlesnake gunslinger defends a frontier town against waves of alien invaders.",
       "highlights": [
         "Built a modular Blueprint weapon system: new guns are children of a base weapon, set by variables, with no per-weapon logic.",
+        "Generalized shared behavior into the base Blueprint, such as how a weapon spawns in the player's hands and how many projectiles fire per shot, so new weapons plugged in without changing it.",
         "Owned the weapons system as one of 6 designers alongside 4 artists, on a Full Sail capstone built and released in one month."
       ],
       "keywords": [
@@ -143,9 +178,9 @@
       "endDate": "2026-07",
       "url": "https://tjtriplett.itch.io/rattles-and-rayguns",
       "roles": [
-        "Designer — Weapons"
+        "Designer - Weapons"
       ],
-      "entity": "Full Sail University — final/capstone project",
+      "entity": "Full Sail University - final/capstone project",
       "type": "game"
     },
     {

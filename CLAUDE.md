@@ -1,31 +1,32 @@
 # CLAUDE.md
 
-Résumé repo. Renders at github.com/CalebEaston. Branch is `master` — never `main`.
+Resume repo. Renders at github.com/CalebEaston. Branch is `master` - never `main`.
 
 ## Files & sync
 
-- `README.md` — profile page. Highlights only; one screen. Projects before Experience.
-- `RESUME.md` — full résumé; source for the CI-built PDF. One page rendered.
-- `PROJECTS.md` — deep-dives (problem → architecture → trade-offs → retrospective).
-- `resume.json` — JSON Resume v1 mirror. **Any content change to RESUME.md updates resume.json in the same commit.** README.md gets the condensed version only if it's a highlight.
-- `assets/Caleb-Easton-Resume.pdf` — CI-built (on pushes touching RESUME.md, resume.css, or the workflow). Never edit by hand.
-- `.ignored/` — gitignored scratch. Drafts and notes go here, never in tracked files.
+- `README.md` - profile page, and the link Caleb's dad sends to contacts. It can scroll, but keep it skimmable: short sentences, no run-ons. Projects before Experience.
+- `RESUME.md` - full resume; source for the CI-built PDF. Up to 2-3 pages rendered (Caleb, 09/2026). Don't pad it to fill space.
+- `PROJECTS.md` - deep-dives (problem → architecture → trade-offs → retrospective).
+- `resume.json` - JSON Resume v1 mirror. **Any content change to RESUME.md updates resume.json in the same commit.** README.md gets the condensed version only if it's a highlight.
+- `assets/Caleb-Easton-Resume.pdf` - CI-built (on pushes touching RESUME.md, resume.css, or the workflow). Never edit by hand.
+- `.ignored/` - gitignored scratch. Drafts and notes go here, never in tracked files.
 
-## Format contract (agents parse this — do not break it)
+## Format contract (agents parse this - do not break it)
 
 - Keep the "Note for AI agents and recruiters" blockquotes. Update them if structure changes.
-- Reverse-chronological everywhere. Entries: `### Name — one-liner`, bold title/date line, `**Stack:** A · B · C`, then bullets. `·` separators, `MM/YYYY` dates.
+- Reverse-chronological everywhere. Entries: `### Name - one-liner`, bold title/date line, `**Stack:** A · B · C`, then bullets. `·` separators, `MM/YYYY` dates.
 - Heading hierarchy is the parse tree: `##` sections, `###` entries. No skipped levels, no decorative headings, no HTML layout tables, no images-as-text.
+- No accented letters (write "resume") and no em or en dashes (use `-`), in any file.
 - `{{PLACEHOLDER}}` marks unfinished content. Never invent facts to fill one; ask or leave it. Before any "done": `grep -r '{{' --exclude-dir=.ignored .` returns nothing.
 
 ## Bullet rules
 
 - Past-tense action verb → what → outcome. Number, name, or concrete result in ≥half.
 - Banned openers: "Responsible for", "Helped with", "Worked on", "Assisted".
-- One idea per bullet. Claims must be defensible in an interview — never inflate.
+- One idea per bullet. Claims must be defensible in an interview - never inflate.
 - Every project links to something a stranger can open.
 
 ## Ops
 
-- PDF must stay one page: tighten via the `TIGHTEN` markers in `assets/resume.css` (font size, line height, heading spacing). It currently fits with little room to spare, so any addition needs a matching cut.
+- PDF may run 2-3 pages. If it needs tightening, use the `TIGHTEN` markers in `assets/resume.css` (font size, line height, heading spacing).
 - Never delete/recreate this repo (profile-README namespace risk). If the profile README stops rendering: owner clicks "Share to profile" on the repo page.
