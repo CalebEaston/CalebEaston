@@ -41,12 +41,17 @@ Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@ap
   work, and his dad (Rjae) is sending this PDF to his own professional contacts. The headline
   leads with AI-assisted development because Caleb cannot yet walk an interviewer through
   code. The ThinkTech job title stays "Junior Full-Stack Developer" because it is his real
-  title. Write the Summary around what he can talk about for an hour: running a multi-agent
-  AI workflow, triage and QA judgment, and game-design feel. It can say he is moving into
-  feature work, but no bullet may claim a feature until one exists.
+  title. Write the Summary around what he can talk about for an hour: the AI Creator
+  redesign, triage and QA judgment, and game-design feel. Feature work began in 10/2026
+  (see the ThinkTech notes), so the Summary names the two features the bullets can back up.
+
+  The multi-agent workflow is deliberately NOT in the Summary (Caleb, 10/2026): it is the
+  least impressive and least interesting thing next to whatever it is paired with. It keeps
+  one bullet at the bottom of ThinkTech and one keyword at the end of its Skills row. Do
+  not move it back up.
 -->
 
-Game design graduate, now working in AI-assisted development: designed and runs a multi-agent Claude Code workflow that merged 208 pull requests on a live K-12 learning platform in under a month. Brings a game designer's eye for systems and feel to triage and QA. Seeking junior full-stack or AI-assisted development roles.
+Game design graduate, now working in AI-assisted development on a live K-12 learning platform. Redesigned its AI lesson creator and directed 289 merged pull requests through Claude Code in just over a month, from bug fixes to a Lockdown Browser test flow. Brings a game designer's eye for systems and feel to design, triage and QA. Seeking junior full-stack or AI-assisted development roles.
 
 ---
 
@@ -61,7 +66,8 @@ Game design graduate, now working in AI-assisted development: designed and runs 
   Don't use star ratings or percentage bars - they read as padding.
 
   ORDERED DELIBERATELY (09/2026): AI-Assisted Development leads to match the headline, and
-  the ThinkTech role is its evidence. Game Development comes second: it is where Caleb's
+  the ThinkTech role is its evidence. Within that row, "Multi-agent workflow design" sits
+  last on purpose (Caleb, 10/2026: it gets far less attention). Game Development comes second: it is where Caleb's
   hands-on depth and public evidence are. There is no Languages row: Blueprints is the only
   language Caleb said he would defend in an interview, so it sits in Game Development. DO NOT
   add a Languages row until a text language is real and defensible.
@@ -79,7 +85,7 @@ Game design graduate, now working in AI-assisted development: designed and runs 
   and Testing. Re-add one only when there is something real and defensible to put in it.
 -->
 
-**AI-Assisted Development:** Claude Code · Multi-agent workflow design · Custom skills · Specifying and verifying AI-written work
+**AI-Assisted Development:** Claude Code · Specifying and verifying AI-written work · Custom skills · Multi-agent workflow design
 
 **Game Development:** Unreal Engine · Blueprints (visual scripting) · Unity · Machinations
 
@@ -121,22 +127,62 @@ Game design graduate, now working in AI-assisted development: designed and runs 
   AI sessions wrote every line of ThinkTech code; Caleb cannot walk through it. His own work:
   he designed the multi-session layout and its skills, triaged which bugs got worked,
   dispatched them, and checked fixes by hand on the dev site for look and feel. Verbs stop
-  there: designed / directed / triaged / dispatched / checked. NEVER "built", "fixed", "wrote"
+  there: designed / directed / triaged / dispatched / checked, plus "tested ... by hand" and
+  "set a rule" for things he did himself. The AI Creator redesign is HIS OWN DESIGN (Caleb,
+  10/2026: "I was the one to redesign the AI creator"), so "Redesigned" is right for it; the
+  code was still written by AI sessions. NEVER "built", "fixed", "wrote"
   or "implemented" for ThinkTech code. PHP / Vue / MySQL appear only as a description of the
   platform, never as his skills, and never in the Stack line.
 
   NOT HIS, never claim: the AI code review, auto-merge and fix-bot pipeline. Rjae (his dad,
-  and the person sending this resume) built those Feb-Aug 2026, before Caleb started.
+  and the person sending this resume) built those Feb-Aug 2026, before Caleb started. Also
+  Rjae's: Brigade (the messaging the sessions run on), the /find-session skill, and the
+  design of the weekly release notes email (card 2212 only ported it).
 
-  Numbers were counted from GitHub and origin/master on 2026-09-29, not taken from the
-  AI-written tally in .ignored/. The first PR was 2026-09-09. There were 208 merged PRs
-  (#283-#493): ~180 bug fixes, 17 small enhancements, 6 process PRs, 5 other. They cover 136
-  Trello cards (1848-2136). ~30 are security fixes, a SUBSET of the 180, of which ~20 are
-  district-isolation fixes. Describe security GENERICALLY ONLY: this repo is public and
-  ThinkTech is a live K-12 product.
+  Numbers were recounted from GitHub on 2026-10-13 (the earlier count was 2026-09-29), with
+  the ThinkTech overseer session's compile as the guide, not as the source. The first PR was
+  2026-09-09 and the latest 2026-10-12.
+  - 290 PRs are merged under his GitHub identity (#283-#578). #578 is another developer's
+    master-content project, merged under his identity, so the resume says 289.
+  - Through 09-29: 208 PRs (#283-#493): ~180 bug fixes, 17 small enhancements, 6 process PRs,
+    5 other. Since then: 81 PRs, of which ~40 are feature work (with its follow-up fixes) and
+    ~28 are bug fixes, by a reading of the titles. Hence "about 200 bug fixes".
+  - Trello cards: 184 distinct card numbers in PR titles (1819-2212); 36 PRs carry no card
+    number. The 09-29 count of 136 (1848-2136) used a stricter method; the same title method
+    gives 138 for that period.
+  - Security: ~30 through 09-29, a SUBSET of the bug fixes, of which ~20 are district
+    isolation, plus 4 since (counted from titles only). Hence "more than 30" and "about 20".
+    Describe security GENERICALLY ONLY: this repo is public and ThinkTech is a live K-12
+    product.
+  - Sessions: still eight, reshaped by 2026-10-08 into overseer, support, three workers and
+    three testers (it was four implementers and two verifiers).
+
+  BULLET ORDER (Caleb, 10/2026): features first, then volume and security. The multi-agent
+  workflow bullet goes LAST and stays short.
+
+  CUT AS "AI FILLER" (Caleb, 10/2026), do NOT restore: the four process bullets. They were
+  the hand check for look and feel, the feature-flag-and-one-PR rule, the migration-safety
+  review rule, and triage via the /dispatch skill. Bullets here are product results with
+  numbers, not rules, checks or tooling. Triage survives as one word in the totals bullet,
+  and hand testing in the AI Creator bullet, so the QA row in Skills is still backed.
+
+  FEATURE WORK (began 10/2026). The two on the resume, both on the production branch as of
+  10/13:
+  - AI Creator redesign: card 2200, 15 PRs (#551-#565), merged 10/09, behind the flag
+    ai-creator-v2. The redesign is Caleb's, and he tested it by hand on the development
+    site through several revision rounds. He says the flag is on in production; nobody
+    checked production. The details in the first bullet (review step, time estimate,
+    background build, cancel) come from the PR titles; Caleb should correct any that were
+    not his call.
+  - Lockdown Browser test flow: cards 2096, 2167, 2172, 2193, 11 PRs.
+  Available but not used: a student start screen (2166, flag lesson-cover-page), finished
+  students re-entering their work (8 PRs), Google Classroom turn-in (2174, flag
+  gc-mark-as-done), gradebook fill-in (2156). The flag-and-one-PR rule is Caleb's own
+  (2026-10-02).
 
   Wording decisions (Caleb, 09/2026):
-  - No exact time spans ("three weeks"). Use "under a month" / "within the first month".
+  - No exact time spans ("three weeks"). It was "under a month" in 09/2026; from 10/2026 it
+    is "just over a month" (09/09 to 10/12). Reword again as the span grows.
   - "Leading ed-tech company" (Caleb, 09/2026: it has seen a lot of success in New York).
     No headcount; he doesn't know the exact number. If he gets a concrete fact (e.g. number
     of New York districts or schools using it), prefer that over the adjective.
@@ -144,21 +190,22 @@ Game design graduate, now working in AI-assisted development: designed and runs 
     accurate.
   - Migration bullet: the rule came AFTER a migration crashed a production deploy on
     2026-09-19 (#342, redone as #372, rule in #371). Do not reword it as foresight.
-  - Feature work is planned but has not started. Add a bullet only once a feature exists.
-  - The migration-rule and look-and-feel bullets were cut for a one-page PDF, then restored
-    once the length limit was lifted (09/2026).
+  - A feature gets a bullet only once it is merged and on the production branch.
+  - The migration-rule and look-and-feel bullets were cut for a one-page PDF, restored once
+    the length limit was lifted (09/2026), then cut for good in 10/2026 (see above).
 
   NOT verified, do not claim: fixes "verified on staging before merge" (PRs auto-merge on AI
-  approval, before deploy); "shipped" for everything (14 PRs merged after 09-28 were not yet
-  in production); any .NET, React/TypeScript, AWS or CI work.
+  approval, before deploy; since 2026-10-12 a card also moves to Testing before its tester
+  pass); "shipped" for everything (the 10 PRs merged on 10/12 were on development only);
+  the state of any feature flag in production; any .NET, React/TypeScript, AWS or CI work.
 -->
 
-- Designed a multi-agent Claude Code workflow (coordinator, implementers, AI testers, support) and grew it to eight sessions within the first month.
-- Directed 208 merged pull requests through it in under a month: about 180 bug fixes across 136 Trello cards.
-- Triaged the AI testers' bug reports and dispatched fixes in batches via a custom `/dispatch` skill that files Trello cards.
-- Directed about 30 security fixes, about 20 of them closing gaps in data isolation between school districts.
-- Added a blocking AI-review rule that database migrations must be safe at production scale, after a migration crashed a production deploy.
-- Checked fixes by hand on the development site for look and feel, on top of the AI testers' functional checks.
+- Redesigned the platform's AI lesson creator: a review step with a time estimate before generating, then a lesson that builds in the background and can be cancelled.
+- Directed the redesign through 15 pull requests to release behind a feature flag, testing each revision round by hand on the development site.
+- Directed a Lockdown Browser test flow through 11 pull requests: teachers choose it when assigning, and leaving the test starts a countdown instead of an instant lockout.
+- Triaged the bug backlog and directed 289 merged pull requests in just over a month, covering 184 Trello cards and about 200 bug fixes.
+- Directed more than 30 security fixes, about 20 of them closing gaps in data isolation between school districts.
+- Designed the eight-session Claude Code workflow behind this work: a coordinator, implementers, AI testers and support.
 
 ### New City Micro Creamery
 **Shift Manager · 2022** · Hudson, MA
@@ -184,6 +231,41 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 
   Write bullets in past tense with a strong verb: Built, Designed, Implemented, Automated,
   Migrated, Reduced, Shipped. Never "Responsible for" or "Helped with".
+-->
+
+### Enemy and Item Scaling - Borderlands 2 SDK mod that keeps enemies, loot and missions at the player's level
+
+[Nexus Mods](https://www.nexusmods.com/borderlands2/mods/688) · [Repo](https://github.com/CalebEaston/bl2-and-tps-enemy-and-item-scaling-sdk) · [Mod database](https://bl-sdk.github.io/willow2-mod-db/mods/enemyitemscaling/) · 10/2026
+
+**Stack:** Claude Code · GitHub
+
+- Designed a mod that keeps enemies, loot and missions within a set range of the player's level, as 5 bounds that each work alone or stay vanilla.
+- Specified each feature for Claude Code, which wrote all of the Python, and directed it through 8 public releases in 3 days.
+- Playtested in game and found 4 bugs, such as enemies whose loot scaled while their level and health did not.
+- Redirected mission scaling to raise the mission's own level instead of patching its reward, so the mission log, XP, cash and reward agree.
+
+<!--
+  Facts from the mod's own session and checked against GitHub on 2026-10-13: 8 releases
+  (v0.2 on 10/08 to v0.9 on 10/10), 5 level bounds plus 2 switches (vendors, logging), about
+  1,000 lines of Python, and the community mod database listing (bl-sdk.github.io PR #261,
+  merged 10/11).
+
+  HONESTY BOUNDARY, same rule as Weekly Quest Log: Claude Code wrote ALL of the code, the
+  docs and the release workflow. Caleb's own work: the concept, the option design, the
+  per-release scope, the v0.7 mission redesign ("raise the actual level of missions rather
+  than forcing the reward"), every release decision, and ALL in-game playtesting (two
+  sessions, 4 bugs reported). So the verbs are designed / specified / directed / playtested,
+  never "built", "wrote" or "implemented", and the Stack line does not list Python,
+  PythonSDK or GitHub Actions.
+
+  Do NOT claim: The Pre-Sequel (supported in code but never played, so the heading says
+  Borderlands 2 only); that every fix was confirmed in game (the v0.5, v0.7 and v0.9 fixes
+  were not re-tested); a reception or download bullet (84 GitHub downloads on 10/13, some of
+  them Caleb's own). The fourth bug, a repeatable mission turn-in, is unresolved and points
+  at another mod, which is why the bullet says "found", not "fixed".
+
+  NEXUS: Caleb uploaded the mod to Nexus Mods himself and supplied the page URL on
+  2026-10-13. Nexus blocks automated fetches (HTTP 403), so the link was not machine-checked.
 -->
 
 ### Rattles & Rayguns - Arena shooter: a rattlesnake gunslinger holds a frontier town against alien waves

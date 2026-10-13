@@ -13,13 +13,13 @@ Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@ap
 
 ## Summary
 
-Game design graduate, now working in AI-assisted development: designed and runs a multi-agent Claude Code workflow that merged 208 pull requests on a live K-12 learning platform in under a month. Brings a game designer's eye for systems and feel to triage and QA. Seeking junior full-stack or AI-assisted development roles.
+Game design graduate, now working in AI-assisted development on a live K-12 learning platform. Redesigned its AI lesson creator and directed 289 merged pull requests through Claude Code in just over a month, from bug fixes to a Lockdown Browser test flow. Brings a game designer's eye for systems and feel to design, triage and QA. Seeking junior full-stack or AI-assisted development roles.
 
 ---
 
 ## Skills
 
-**AI-Assisted Development:** Claude Code · Multi-agent workflow design · Custom skills · Specifying and verifying AI-written work
+**AI-Assisted Development:** Claude Code · Specifying and verifying AI-written work · Custom skills · Multi-agent workflow design
 
 **Game Development:** Unreal Engine · Blueprints (visual scripting) · Unity · Machinations
 
@@ -38,12 +38,12 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 
 **Stack:** Claude Code · GitHub · Trello
 
-- Designed a multi-agent Claude Code workflow (coordinator, implementers, AI testers, support) and grew it to eight sessions within the first month.
-- Directed 208 merged pull requests through it in under a month: about 180 bug fixes across 136 Trello cards.
-- Triaged the AI testers' bug reports and dispatched fixes in batches via a custom `/dispatch` skill that files Trello cards.
-- Directed about 30 security fixes, about 20 of them closing gaps in data isolation between school districts.
-- Added a blocking AI-review rule that database migrations must be safe at production scale, after a migration crashed a production deploy.
-- Checked fixes by hand on the development site for look and feel, on top of the AI testers' functional checks.
+- Redesigned the platform's AI lesson creator: a review step with a time estimate before generating, then a lesson that builds in the background and can be cancelled.
+- Directed the redesign through 15 pull requests to release behind a feature flag, testing each revision round by hand on the development site.
+- Directed a Lockdown Browser test flow through 11 pull requests: teachers choose it when assigning, and leaving the test starts a countdown instead of an instant lockout.
+- Triaged the bug backlog and directed 289 merged pull requests in just over a month, covering 184 Trello cards and about 200 bug fixes.
+- Directed more than 30 security fixes, about 20 of them closing gaps in data isolation between school districts.
+- Designed the eight-session Claude Code workflow behind this work: a coordinator, implementers, AI testers and support.
 
 ### New City Micro Creamery
 **Shift Manager · 2022** · Hudson, MA
@@ -57,6 +57,17 @@ Game design graduate, now working in AI-assisted development: designed and runs 
 ---
 
 ## Projects
+
+### Enemy and Item Scaling - Borderlands 2 SDK mod that keeps enemies, loot and missions at the player's level
+
+[Nexus Mods](https://www.nexusmods.com/borderlands2/mods/688) · [Repo](https://github.com/CalebEaston/bl2-and-tps-enemy-and-item-scaling-sdk) · [Mod database](https://bl-sdk.github.io/willow2-mod-db/mods/enemyitemscaling/) · 10/2026
+
+**Stack:** Claude Code · GitHub
+
+- Designed a mod that keeps enemies, loot and missions within a set range of the player's level, as 5 bounds that each work alone or stay vanilla.
+- Specified each feature for Claude Code, which wrote all of the Python, and directed it through 8 public releases in 3 days.
+- Playtested in game and found 4 bugs, such as enemies whose loot scaled while their level and health did not.
+- Redirected mission scaling to raise the mission's own level instead of patching its reward, so the mission log, XP, cash and reward agree.
 
 ### Rattles & Rayguns - Arena shooter: a rattlesnake gunslinger holds a frontier town against alien waves
 
