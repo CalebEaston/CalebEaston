@@ -13,7 +13,7 @@
     "email": "caleb@beardesigns.io",
     "phone": "",
     "url": "https://github.com/CalebEaston",
-    "summary": "Game design graduate, now working in AI-assisted development on a live K-12 learning platform. Redesigned its AI lesson creator and directed 289 merged pull requests through Claude Code in just over a month, from bug fixes to a Lockdown Browser test flow. Brings a game designer's eye for systems and feel to design, triage and QA. Seeking junior full-stack or AI-assisted development roles. Based in Boston; open to on-site in Massachusetts or remote.",
+    "summary": "Game design graduate working in AI-assisted development. Now the only full-time developer on a freight brokerage's in-house CRM. On a live K-12 learning platform, directed more than 430 merged pull requests through Claude Code in under three months and redesigned its AI lesson creator. Brings a game designer's eye for systems and feel to design, triage and QA. Open to junior full-stack or AI-assisted development roles. Based in Boston; open to on-site in Massachusetts or remote.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,19 +31,33 @@
   },
   "work": [
     {
+      "name": "Great Lakes",
+      "position": "Contract Developer (through Bear Designs LLC)",
+      "url": "",
+      "location": "",
+      "startDate": "2026-11",
+      "summary": "Freight brokerage building an in-house carrier-relationship CRM on Nuxt / TypeScript / Postgres. Contract through Caleb's single-member LLC, Bear Designs LLC. Stack: Claude Code · GitHub.",
+      "highlights": [
+        "Joined as the only full-time developer on the brokerage's in-house CRM, directing Claude Code sessions on a Nuxt / TypeScript / Postgres codebase."
+      ]
+    },
+    {
       "name": "ThinkTech",
       "position": "Junior Full-Stack Developer",
       "url": "",
       "location": "Remote",
       "startDate": "2026-09",
-      "summary": "Leading ed-tech company behind a PHP / Vue / MySQL K-12 learning platform. Stack: Claude Code · GitHub · Trello.",
+      "endDate": "2026-11",
+      "summary": "Leading ed-tech company behind a PHP / Vue / MySQL K-12 learning platform. Full time 09/2026 to 11/2026, then part-time support. Stack: Claude Code · GitHub · Trello.",
       "highlights": [
-        "Redesigned the platform's AI lesson creator: a review step with a time estimate before generating, then a lesson that builds in the background and can be cancelled.",
+        "Redesigned the platform's AI lesson creator: a time estimate before generating, a lesson that builds in the background and can be cancelled, and top-up rounds so every lesson has the number of tasks the teacher asked for.",
         "Directed the redesign through 15 pull requests to release behind a feature flag, testing each revision round by hand on the development site.",
-        "Directed a Lockdown Browser test flow through 11 pull requests: teachers choose it when assigning, and leaving the test starts a countdown instead of an instant lockout.",
-        "Triaged the bug backlog and directed 289 merged pull requests in just over a month, covering 184 Trello cards and about 200 bug fixes.",
-        "Directed more than 30 security fixes, about 20 of them closing gaps in data isolation between school districts.",
-        "Designed the eight-session Claude Code workflow behind this work: a coordinator, implementers, AI testers and support."
+        "Directed the fix for wrong answer keys in AI practice sets, so every generated key is checked by an independent second solve: 0 wrong keys in 188 items on the development site, against 16 wrong in an 80-item production sample before.",
+        "Directed a Lockdown Browser test flow through 16 pull requests: teachers choose it when assigning, leaving the test starts a countdown instead of an instant lockout, and the browser's Back button asks before locking a student out.",
+        "Directed 56 feature cards, 52 of them now on production, including subgroup filtering in lesson reports, AI grading that reads math and drawings, and a choice of summary or full report when sharing results with students.",
+        "Triaged the bug backlog and directed more than 430 merged pull requests on about 250 Trello cards, 163 of them bug fixes across the student, teacher, reporting and admin pages.",
+        "Directed more than 40 security and access fixes: cross-district data isolation, ownership checks, payment webhook verification and script injection in user-entered text.",
+        "Designed the multi-session Claude Code workflow behind this work: an overseer, implementers, AI testers and support."
       ]
     },
     {

@@ -45,13 +45,19 @@ Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@be
   redesign, triage and QA judgment, and game-design feel. Feature work began in 10/2026
   (see the ThinkTech notes), so the Summary names the two features the bullets can back up.
 
+  11/2026: Caleb started at Great Lakes on 2026-11-16 (a contract through his own LLC, see
+  the Experience notes) and ThinkTech became part-time. The Summary now leads with the Great
+  Lakes role, keeps ThinkTech as the evidence (the totals and the AI Creator redesign), and
+  says "Open to" instead of "Seeking", because he has a job and the resume still goes to
+  Rjae's contacts. Caleb has not yet confirmed the "Open to" wording.
+
   The multi-agent workflow is deliberately NOT in the Summary (Caleb, 10/2026): it is the
   least impressive and least interesting thing next to whatever it is paired with. It keeps
   one bullet at the bottom of ThinkTech and one keyword at the end of its Skills row. Do
   not move it back up.
 -->
 
-Game design graduate, now working in AI-assisted development on a live K-12 learning platform. Redesigned its AI lesson creator and directed 289 merged pull requests through Claude Code in just over a month, from bug fixes to a Lockdown Browser test flow. Brings a game designer's eye for systems and feel to design, triage and QA. Seeking junior full-stack or AI-assisted development roles.
+Game design graduate working in AI-assisted development. Now the only full-time developer on a freight brokerage's in-house CRM. On a live K-12 learning platform, directed more than 430 merged pull requests through Claude Code in under three months and redesigned its AI lesson creator. Brings a game designer's eye for systems and feel to design, triage and QA. Open to junior full-stack or AI-assisted development roles.
 
 ---
 
@@ -117,8 +123,34 @@ Game design graduate, now working in AI-assisted development on a live K-12 lear
   Creamery has since moved within Hudson; the city is still correct.
 -->
 
+### Great Lakes - Freight brokerage building an in-house carrier-relationship CRM
+**Contract Developer (through Bear Designs LLC) · 11/2026 - Present**
+
+**Stack:** Claude Code · GitHub
+
+<!--
+  Added 11/2026. Facts from Caleb, 2026-11-17: he started on 2026-11-16; he is a contractor,
+  with his single-member LLC, Bear Designs LLC, as the contracted entity; Great Lakes may
+  hire him directly in a few months; the role is like ThinkTech's (he directs Claude Code
+  sessions, which write the code), and he will be the only person working on the software
+  full time. He has no official title yet, so "Contract Developer" describes the arrangement
+  and is replaced the day Great Lakes gives him one. Location not given; add it when known.
+
+  NEVER LINK the repository (github.com/scottTT1/greatlakesgo, private, owned by Scott
+  Martin): Caleb's instruction, 2026-11-17. No product URL either; the product sits behind a
+  sign-in. It is a carrier-relationship CRM and operations platform the brokerage builds for
+  its own use, on Nuxt 4 / TypeScript / Postgres. Those three describe the platform and are
+  never his skills, by the same rule as PHP / Vue / MySQL at ThinkTech.
+
+  No accomplishment bullets yet: as of 2026-11-17 the repository holds no commits or pull
+  requests under his identity (onboarding). Add bullets only for merged, released work, with
+  the ThinkTech verbs (directed / specified / triaged / tested by hand).
+-->
+
+- Joined as the only full-time developer on the brokerage's in-house CRM, directing Claude Code sessions on a Nuxt / TypeScript / Postgres codebase.
+
 ### ThinkTech - Leading ed-tech company behind a PHP / Vue / MySQL K-12 learning platform
-**Junior Full-Stack Developer · 09/2026 - Present** · Remote
+**Junior Full-Stack Developer · 09/2026 - 11/2026, then part-time support** · Remote
 
 **Stack:** Claude Code · GitHub · Trello
 
@@ -139,23 +171,33 @@ Game design graduate, now working in AI-assisted development on a live K-12 lear
   Rjae's: Brigade (the messaging the sessions run on), the /find-session skill, and the
   design of the weekly release notes email (card 2212 only ported it).
 
-  Numbers were recounted from GitHub on 2026-10-13 (the earlier count was 2026-09-29), with
-  the ThinkTech overseer session's compile as the guide, not as the source. The first PR was
-  2026-09-09 and the latest 2026-10-12.
-  - 290 PRs are merged under his GitHub identity (#283-#578). #578 is another developer's
-    master-content project, merged under his identity, so the resume says 289.
-  - Through 09-29: 208 PRs (#283-#493): ~180 bug fixes, 17 small enhancements, 6 process PRs,
-    5 other. Since then: 81 PRs, of which ~40 are feature work (with its follow-up fixes) and
-    ~28 are bug fixes, by a reading of the titles. Hence "about 200 bug fixes".
-  - Trello cards: 184 distinct card numbers in PR titles (1819-2212); 36 PRs carry no card
-    number. The 09-29 count of 136 (1848-2136) used a stricter method; the same title method
-    gives 138 for that period.
-  - Security: ~30 through 09-29, a SUBSET of the bug fixes, of which ~20 are district
-    isolation, plus 4 since (counted from titles only). Hence "more than 30" and "about 20".
-    Describe security GENERICALLY ONLY: this repo is public and ThinkTech is a live K-12
-    product.
-  - Sessions: still eight, reshaped by 2026-10-08 into overseer, support, three workers and
-    three testers (it was four implementers and two verifiers).
+  DATES (Caleb, 2026-11-17): full time 09/2026 to the end of 11/2026, then part-time support
+  while he works at Great Lakes. His words: "say that it ends at the end of november, then
+  say I move to part time support or something." Reword once the arrangement is settled.
+
+  Numbers were recounted from GitHub on 2026-11-17 (earlier counts: 2026-09-29, 2026-10-13),
+  with the ThinkTech overseer's compile (thinktech-php/.ignored/achievements-and-
+  contributions-resume.md, 2026-11-17) as the guide, not as the source. First PR 2026-09-09,
+  latest 2026-11-17.
+  - 435 PRs merged under his GitHub identity in GoThinkTech/thinktech (#283-#727; the compile
+    said 434 an hour earlier), plus 5 in thinktech-api. The count still moves, so the resume
+    says "more than 430"; set the exact figure when the full-time period ends.
+  - 23 of those PRs sit on six cards led by Rjae (MTSS Hub 2151, PowerSchool 1680, data
+    warehouse 2171, 2001, 2153, 1819). Caleb decided on 2026-11-17 that work merged under his
+    account counts as his, and Rjae and Scott agreed. They stay inside the total; no separate
+    bullet, and never "led" or "directed" for those six by name.
+  - Trello cards: 251 distinct card numbers in PR titles (counting two-card titles); the
+    compile says 252. Hence "about 250". Of the 246 he directed: 56 features (52 on
+    production, 3 on development, 1 reverted), 21 security, 6 internal tooling, 163 bug fixes.
+  - Security: 43 fixes in 45 PRs (21 cards plus 22 PRs without a card), 2026-09-15 to
+    2026-11-09: cross-district isolation 7 PRs, ownership checks inside a district 16, script
+    injection 5, sign-in and accounts 5, payments 3, exposed data and uploads 9. Hence "more
+    than 40". Describe security GENERICALLY ONLY: this repo is public and ThinkTech is a live
+    K-12 product.
+  - Feature flags: 16 flags on 15 cards. Whether each is on in production is not in the
+    sources (no production reads were made), so no bullet says teachers use a flagged feature.
+  - Sessions: six as of 11/2026 (overseer, two workers, two testers, support); eight in
+    10/2026, grown from 2 to 8 in 09/2026. The bullet no longer gives a count.
 
   BULLET ORDER (Caleb, 10/2026): features first, then volume and security. The multi-agent
   workflow bullet goes LAST and stays short.
@@ -166,23 +208,35 @@ Game design graduate, now working in AI-assisted development on a live K-12 lear
   numbers, not rules, checks or tooling. Triage survives as one word in the totals bullet,
   and hand testing in the AI Creator bullet, so the QA row in Skills is still backed.
 
-  FEATURE WORK (began 10/2026). The two on the resume, both on the production branch as of
-  10/13:
+  FEATURE WORK (began 10/2026). Everything on the resume is on the production branch as of
+  11/17:
   - AI Creator redesign: card 2200, 15 PRs (#551-#565), merged 10/09, behind the flag
     ai-creator-v2. The redesign is Caleb's, and he tested it by hand on the development
-    site through several revision rounds. He says the flag is on in production; nobody
-    checked production. The details in the first bullet (review step, time estimate,
-    background build, cancel) come from the PR titles; Caleb should correct any that were
-    not his call.
-  - Lockdown Browser test flow: cards 2096, 2167, 2172, 2193, 11 PRs.
-  Available but not used: a student start screen (2166, flag lesson-cover-page), finished
-  students re-entering their work (8 PRs), Google Classroom turn-in (2174, flag
-  gc-mark-as-done), gradebook fill-in (2156). The flag-and-one-PR rule is Caleb's own
-  (2026-10-02).
+    site through several revision rounds. The details in the first bullet come from the PR
+    titles (time estimate, background build with cancel, top-up rounds so the lesson has the
+    requested number of tasks); Caleb should correct any that were not his call. Flag state
+    in production unchecked.
+  - AI practice-set answer keys: cards 2314 and 2323, 10 PRs (#676-#692), merged 10/30 to
+    11/02. Every generated key is re-solved independently and flawed items are dropped. The
+    before figure (16 wrong of 80) came from a read-only production sample Caleb approved on
+    10/30; the after figure (0 wrong of 188) was measured on the development site (ledger
+    row 2314). Always say "on the development site" for the after figure.
+  - Lockdown Browser test flow: cards 2096, 2167, 2172, 2193 and 2311, 16 PRs (2026-10-01
+    to 2026-11-09). 2313 (Require Kiosk Mode, 3 PRs) is related and not counted.
+  - The 56-feature bullet names three, one user result each: 1236 subgroup filtering in
+    Lesson Reporting (flag lesson-report-subgroups), 2265 AI grading that reads math and
+    drawings (flag feedback-ai-sonnet), 2232 summary or full report when sharing results
+    (flag share-full-report). Swap in others from the compile's section 3 if Caleb prefers.
+    2355 (Present decks in the District Library) stays out until it is on production.
+  Not used: the NYS master-content proofread (#578 and five commits, led by Scott's session,
+  "contributed to" only), the hotfixes and production decisions in the compile's section 6,
+  and the internal tooling cards (process; see the cut list above). The flag-and-one-PR rule
+  is Caleb's own (2026-10-02).
 
   Wording decisions (Caleb, 09/2026):
-  - No exact time spans ("three weeks"). It was "under a month" in 09/2026; from 10/2026 it
-    is "just over a month" (09/09 to 10/12). Reword again as the span grows.
+  - No exact time spans ("three weeks"). It was "under a month" in 09/2026 and "just over a
+    month" in 10/2026; from 11/2026 the Summary says "in under three months" (09/09 to the
+    end of 11/2026) and the bullets give no span, since the date line carries it.
   - "Leading ed-tech company" (Caleb, 09/2026: it has seen a lot of success in New York).
     No headcount; he doesn't know the exact number. If he gets a concrete fact (e.g. number
     of New York districts or schools using it), prefer that over the adjective.
@@ -196,16 +250,19 @@ Game design graduate, now working in AI-assisted development on a live K-12 lear
 
   NOT verified, do not claim: fixes "verified on staging before merge" (PRs auto-merge on AI
   approval, before deploy; since 2026-10-12 a card also moves to Testing before its tester
-  pass); "shipped" for everything (the 10 PRs merged on 10/12 were on development only);
-  the state of any feature flag in production; any .NET, React/TypeScript, AWS or CI work.
+  pass); "shipped" for everything (as of 11/17 the PRs for 2355, 2374, 2418 and 2412 are on
+  development only); the state of any feature flag in production; any .NET, React/TypeScript,
+  AWS or CI work.
 -->
 
-- Redesigned the platform's AI lesson creator: a review step with a time estimate before generating, then a lesson that builds in the background and can be cancelled.
+- Redesigned the platform's AI lesson creator: a time estimate before generating, a lesson that builds in the background and can be cancelled, and top-up rounds so every lesson has the number of tasks the teacher asked for.
 - Directed the redesign through 15 pull requests to release behind a feature flag, testing each revision round by hand on the development site.
-- Directed a Lockdown Browser test flow through 11 pull requests: teachers choose it when assigning, and leaving the test starts a countdown instead of an instant lockout.
-- Triaged the bug backlog and directed 289 merged pull requests in just over a month, covering 184 Trello cards and about 200 bug fixes.
-- Directed more than 30 security fixes, about 20 of them closing gaps in data isolation between school districts.
-- Designed the eight-session Claude Code workflow behind this work: a coordinator, implementers, AI testers and support.
+- Directed the fix for wrong answer keys in AI practice sets, so every generated key is checked by an independent second solve: 0 wrong keys in 188 items on the development site, against 16 wrong in an 80-item production sample before.
+- Directed a Lockdown Browser test flow through 16 pull requests: teachers choose it when assigning, leaving the test starts a countdown instead of an instant lockout, and the browser's Back button asks before locking a student out.
+- Directed 56 feature cards, 52 of them now on production, including subgroup filtering in lesson reports, AI grading that reads math and drawings, and a choice of summary or full report when sharing results with students.
+- Triaged the bug backlog and directed more than 430 merged pull requests on about 250 Trello cards, 163 of them bug fixes across the student, teacher, reporting and admin pages.
+- Directed more than 40 security and access fixes: cross-district data isolation, ownership checks, payment webhook verification and script injection in user-entered text.
+- Designed the multi-session Claude Code workflow behind this work: an overseer, implementers, AI testers and support.
 
 ### New City Micro Creamery
 **Shift Manager · 2022** · Hudson, MA
