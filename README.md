@@ -13,7 +13,7 @@ Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@be
 
 ## Summary
 
-Game design graduate working in AI-assisted development. Now the only full-time developer on a freight brokerage's in-house CRM. On a live K-12 learning platform, directed more than 430 merged pull requests through Claude Code in under three months and redesigned its AI lesson creator. Brings a game designer's eye for systems and feel to design, triage and QA. Open to junior full-stack or AI-assisted development roles.
+Game design graduate working in AI-assisted development. Now the only full-time developer on a freight brokerage's in-house CRM. On a live K-12 learning platform, directed more than 430 merged pull requests through Claude Code in under three months and redesigned its AI lesson creator. Brings a game designer's eye for systems and feel to design, triage and QA.
 
 ---
 
@@ -33,8 +33,8 @@ Game design graduate working in AI-assisted development. Now the only full-time 
 
 ## Experience
 
-### Great Lakes - Freight brokerage building an in-house carrier-relationship CRM
-**Contract Developer (through Bear Designs LLC) · 11/2026 - Present**
+### Great Lakes Transport - Freight brokerage building an in-house carrier-relationship CRM
+**Contracted Full-Stack Developer (through Bear Designs LLC) · 11/2026 - Present** · Remote
 
 **Stack:** Claude Code · GitHub
 

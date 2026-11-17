@@ -48,8 +48,9 @@ Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@be
   11/2026: Caleb started at Great Lakes on 2026-11-16 (a contract through his own LLC, see
   the Experience notes) and ThinkTech became part-time. The Summary now leads with the Great
   Lakes role, keeps ThinkTech as the evidence (the totals and the AI Creator redesign), and
-  says "Open to" instead of "Seeking", because he has a job and the resume still goes to
-  Rjae's contacts. Caleb has not yet confirmed the "Open to" wording.
+  no longer ends with a "Seeking ..." or "Open to ..." line: Caleb had it removed on
+  2026-11-17 because he has a job. The resume still goes to Rjae's contacts; the contact
+  line's "Open to on-site in Massachusetts or remote" is a location preference and stays.
 
   The multi-agent workflow is deliberately NOT in the Summary (Caleb, 10/2026): it is the
   least impressive and least interesting thing next to whatever it is paired with. It keeps
@@ -57,7 +58,7 @@ Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@be
   not move it back up.
 -->
 
-Game design graduate working in AI-assisted development. Now the only full-time developer on a freight brokerage's in-house CRM. On a live K-12 learning platform, directed more than 430 merged pull requests through Claude Code in under three months and redesigned its AI lesson creator. Brings a game designer's eye for systems and feel to design, triage and QA. Open to junior full-stack or AI-assisted development roles.
+Game design graduate working in AI-assisted development. Now the only full-time developer on a freight brokerage's in-house CRM. On a live K-12 learning platform, directed more than 430 merged pull requests through Claude Code in under three months and redesigned its AI lesson creator. Brings a game designer's eye for systems and feel to design, triage and QA.
 
 ---
 
@@ -123,8 +124,8 @@ Game design graduate working in AI-assisted development. Now the only full-time 
   Creamery has since moved within Hudson; the city is still correct.
 -->
 
-### Great Lakes - Freight brokerage building an in-house carrier-relationship CRM
-**Contract Developer (through Bear Designs LLC) · 11/2026 - Present**
+### Great Lakes Transport - Freight brokerage building an in-house carrier-relationship CRM
+**Contracted Full-Stack Developer (through Bear Designs LLC) · 11/2026 - Present** · Remote
 
 **Stack:** Claude Code · GitHub
 
@@ -133,8 +134,11 @@ Game design graduate working in AI-assisted development. Now the only full-time 
   with his single-member LLC, Bear Designs LLC, as the contracted entity; Great Lakes may
   hire him directly in a few months; the role is like ThinkTech's (he directs Claude Code
   sessions, which write the code), and he will be the only person working on the software
-  full time. He has no official title yet, so "Contract Developer" describes the arrangement
-  and is replaced the day Great Lakes gives him one. Location not given; add it when known.
+  full time. He has no official title yet, so "Contracted Full-Stack Developer" (his own
+  wording, 2026-11-17) describes the arrangement and is replaced the day Great Lakes gives
+  him one. Remote (Caleb, 2026-11-17). The employer's name: the company's public site heads
+  itself "Great Lakes Transport" (footer "Great Lakes Transport Solution"; a 3PL in Buffalo,
+  NY); Caleb chose "Great Lakes Transport" on 2026-11-17.
 
   NEVER LINK the repository (github.com/scottTT1/greatlakesgo, private, owned by Scott
   Martin): Caleb's instruction, 2026-11-17. No product URL either; the product sits behind a
