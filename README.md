@@ -7,7 +7,7 @@
 
 **AI-Assisted Development · QA · Technical & Systems Game Design**
 
-Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@appshapes.com](mailto:caleb@appshapes.com) · [github.com/CalebEaston](https://github.com/CalebEaston) · [Resume PDF](assets/Caleb-Easton-Resume.pdf)
+Boston, Massachusetts · Open to on-site in Massachusetts or remote · [caleb@beardesigns.io](mailto:caleb@beardesigns.io) · [github.com/CalebEaston](https://github.com/CalebEaston) · [Resume PDF](assets/Caleb-Easton-Resume.pdf)
 
 ---
 

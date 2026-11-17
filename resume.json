@@ -3,14 +3,14 @@
   "meta": {
     "canonical": "https://github.com/CalebEaston/CalebEaston/blob/master/resume.json",
     "version": "1.0.0",
-    "lastModified": "2026-10-13",
+    "lastModified": "2026-11-17",
     "comment": "Machine-readable mirror of RESUME.md, conforming to the JSON Resume schema (https://jsonresume.org/schema/). Keep the two in sync: when a role, project, or skill changes in RESUME.md, update it here. Remove any array entry you have no content for rather than leaving placeholder text in place. Service-role dates are year-only because exact months are not known; replace with YYYY-MM when available."
   },
   "basics": {
     "name": "Caleb Easton",
     "label": "AI-Assisted Development · QA · Technical & Systems Game Design",
     "image": "",
-    "email": "caleb@appshapes.com",
+    "email": "caleb@beardesigns.io",
     "phone": "",
     "url": "https://github.com/CalebEaston",
     "summary": "Game design graduate, now working in AI-assisted development on a live K-12 learning platform. Redesigned its AI lesson creator and directed 289 merged pull requests through Claude Code in just over a month, from bug fixes to a Lockdown Browser test flow. Brings a game designer's eye for systems and feel to design, triage and QA. Seeking junior full-stack or AI-assisted development roles. Based in Boston; open to on-site in Massachusetts or remote.",
