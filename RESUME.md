@@ -124,7 +124,7 @@ Game design graduate working in AI-assisted development. Now the only full-time 
   Creamery has since moved within Hudson; the city is still correct.
 -->
 
-### Great Lakes Transport - Freight brokerage building an in-house carrier-relationship CRM
+### Great Lakes Transport - Freight brokerage moving from vendor software to an in-house carrier-relationship CRM
 **Contracted Full-Stack Developer (through Bear Designs LLC) · 11/2026 - Present** · Remote
 
 **Stack:** Claude Code · GitHub
@@ -139,6 +139,11 @@ Game design graduate working in AI-assisted development. Now the only full-time 
   him one. Remote (Caleb, 2026-11-17). The employer's name: the company's public site heads
   itself "Great Lakes Transport" (footer "Great Lakes Transport Solution"; a 3PL in Buffalo,
   NY); Caleb chose "Great Lakes Transport" on 2026-11-17.
+
+  Context from Caleb, 2026-11-17: the brokerage runs on vendor CRM / TMS software today and
+  plans to build its own, with Caleb as the developer who builds it. The one-liner says
+  "moving from vendor software" and names no vendor: a third party's vendor choices and
+  migration plans stay off a public page. Name them only if Caleb and Scott say so.
 
   NEVER LINK the repository (github.com/scottTT1/greatlakesgo, private, owned by Scott
   Martin): Caleb's instruction, 2026-11-17. No product URL either; the product sits behind a

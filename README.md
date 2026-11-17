@@ -33,7 +33,7 @@ Game design graduate working in AI-assisted development. Now the only full-time 
 
 ## Experience
 
-### Great Lakes Transport - Freight brokerage building an in-house carrier-relationship CRM
+### Great Lakes Transport - Freight brokerage moving from vendor software to an in-house carrier-relationship CRM
 **Contracted Full-Stack Developer (through Bear Designs LLC) · 11/2026 - Present** · Remote
 
 **Stack:** Claude Code · GitHub

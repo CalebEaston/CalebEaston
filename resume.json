@@ -36,7 +36,7 @@
       "url": "",
       "location": "Remote",
       "startDate": "2026-11",
-      "summary": "Freight brokerage building an in-house carrier-relationship CRM on Nuxt / TypeScript / Postgres. Contract through Caleb's single-member LLC, Bear Designs LLC. Stack: Claude Code · GitHub.",
+      "summary": "Freight brokerage moving from vendor software to an in-house carrier-relationship CRM on Nuxt / TypeScript / Postgres. Contract through Caleb's single-member LLC, Bear Designs LLC. Stack: Claude Code · GitHub.",
       "highlights": [
         "Joined as the only full-time developer on the brokerage's in-house CRM, directing Claude Code sessions on a Nuxt / TypeScript / Postgres codebase."
       ]
